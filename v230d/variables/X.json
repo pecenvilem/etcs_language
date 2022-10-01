@@ -1,0 +1,14 @@
+[
+  {
+    "srs": "7.5.1.174",
+    "type": "X",
+    "id": "X_TEXT",
+    "name": "Text String Element",
+    "description": "Text strings are used to transmit plain text messages. Each element of a text string contains a single character encoded as ISO 8859-1, also known as Latin Alphabet #1.",
+    "length": 8,
+    "min": "",
+    "max": "",
+    "resolution": "",
+    "spec": {}
+  }
+]

@@ -1,0 +1,52 @@
+[
+    {
+        "srs": "7.5.1.83",
+        "type": "NC",
+        "id": "NC_DIFF",
+        "remark": "(Values to be assigned according to 7.3.1.3)",
+        "edited": null,
+        "name": "International Train categories",
+        "description": "It is the international class of train for which a differential value for the static line speed exists.\nUsed together with V_DIFF to permit certain trains to go faster or lower than the \u201cinternational basic static speed\u201d given by V_STATIC. \nValue 0 of NC_DIFF corresponds to the LSB of NC_TRAIN, number 14 of NC_DIFF to MSB (15-bit variable) of NC_TRAIN.",
+        "length": 4,
+        "min": "0",
+        "max": "15",
+        "resolution": "Numbers",
+        "spec": {
+            "0": "Active tilting SSP",
+            "1": "Passive tilting SSP",
+            "2": "Cross wind sensitivity",
+            "3 \u2013 15": "Spare"
+        }
+    },
+    {
+        "srs": "7.5.1.84",
+        "type": "NC",
+        "id": "NC_TRAIN",
+        "remark": "(Values to be assigned according to 7.3.1.3)",
+        "edited": null,
+        "name": "International Category to which belongs the train.",
+        "description": "Train category used for the static speed profile calculation.\nThanks to NC_TRAIN, the train knows the SSP it must obey. by receiving a list of static speed profile, thanks to NC_TRAIN, the train can select the SSP it must obey.\nEach bit represents one category.\nA train can belong to various categories.",
+        "length": 15,
+        "min": "",
+        "max": "",
+        "resolution": "Bitset",
+        "spec": {
+            "000 0000 0000 0000": "Basic static speed profile",
+            "Xxx xxxx xxxx xxx1": "Active tilting  SSP",
+            "Xxx xxxx xxxx xx1x": "Passive tilting SSP",
+            "Xxx xxxx xxxx x1xx": "Cross wind sensitivity",
+            "Xxx xxxx xxx 1xxx": "Spare",
+            "Xxx xxxx xxx1 xxxx": "Spare",
+            "Xxx xxxx xx1x xxxx": "Spare",
+            "Xxx xxxx x1xx xxxx": "Spare",
+            "Xxx xxxx 1xxx xxxx": "Spare",
+            "Xxx xxx1 xxxx xxxx": "Spare",
+            "Xxx xx1x xxxx xxxx": "Spare",
+            "Xxx x1xx xxxx xxxx": "Spare",
+            "Xxx 1xxx xxxx xxxx": "Spare",
+            "Xx1 xxxx xxxx xxxx": "Spare",
+            "X1x xxxx xxxx xxxx": "Spare",
+            "1xx xxxx xxxx xxxx": "Spare"
+        }
+    }
+]

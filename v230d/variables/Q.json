@@ -1,0 +1,735 @@
+[
+    {
+        "srs": "7.5.1.101",
+        "type": "Q",
+        "id": "Q_ASPECT",
+        "remark": null,
+        "edited": null,
+        "name": "Aspect of \u201cdanger for shunting\u201d signal",
+        "description": "",
+        "length": 1,
+        "min": "",
+        "max": "",
+        "resolution": "",
+        "spec": {
+            "0": "Stop if in SH mode",
+            "1": "Go if in SH mode"
+        }
+    },
+    {
+        "srs": "7.5.1.102",
+        "type": "Q",
+        "id": "Q_DANGERPOINT",
+        "remark": null,
+        "edited": null,
+        "name": "Qualifier for danger point description.",
+        "description": "This variable is set to 1 if either a danger point exists or a release speed has to be specified",
+        "length": 1,
+        "min": "",
+        "max": "",
+        "resolution": "",
+        "spec": {
+            "0": "No danger point information",
+            "1": "Danger point information to follow"
+        }
+    },
+    {
+        "srs": "7.5.1.103",
+        "type": "Q",
+        "id": "Q_DIR",
+        "remark": null,
+        "edited": null,
+        "name": "Validity direction of transmitted data",
+        "description": "Qualifier to indicate the relevant validity direction of transmitted data, with reference to directionality of the balise group sending the information or to directionality of the LRBG, in case of information sent via radio.",
+        "length": 2,
+        "min": "",
+        "max": "",
+        "resolution": "",
+        "spec": {
+            "00": "Reverse",
+            "01": "Nominal",
+            "10": "Both directions",
+            "11": "Spare"
+        }
+    },
+    {
+        "srs": "7.5.1.104",
+        "type": "Q",
+        "id": "Q_DIRLRBG",
+        "remark": null,
+        "edited": null,
+        "name": "Orientation of the train in relation to the direction of the LRBG",
+        "description": "",
+        "length": 2,
+        "min": "",
+        "max": "",
+        "resolution": "",
+        "spec": {
+            "0": "Reverse",
+            "1": "Nominal",
+            "2": "Unknown",
+            "3": "Spare"
+        }
+    },
+    {
+        "srs": "7.5.1.105",
+        "type": "Q",
+        "id": "Q_DIRTRAIN",
+        "remark": null,
+        "edited": null,
+        "name": "Direction of train movement in relation to the LRBG orientation",
+        "description": "",
+        "length": 2,
+        "min": "",
+        "max": "",
+        "resolution": "",
+        "spec": {
+            "0": "Reverse",
+            "1": "Nominal",
+            "2": "Unknown",
+            "3": "Spare"
+        }
+    },
+    {
+        "srs": "7.5.1.106",
+        "type": "Q",
+        "id": "Q_DLRBG",
+        "remark": null,
+        "edited": null,
+        "name": "Qualifier telling on which side of the LRBG the estimated front end is",
+        "description": "",
+        "length": 2,
+        "min": "",
+        "max": "",
+        "resolution": "",
+        "spec": {
+            "0": "Reverse",
+            "1": "Nominal",
+            "2": "Unknown",
+            "3": "Spare"
+        }
+    },
+    {
+        "srs": "7.5.1.107",
+        "type": "Q",
+        "id": "Q_EMERGENCYSTOP",
+        "remark": null,
+        "edited": null,
+        "name": "Qualifier for emergency stop acknowledgement",
+        "description": "Qualifier to indicate whether the train has ignored or not a conditional emergency stop.\nFor an unconditional emergency stop, it is set to \u201cnot relevant\u201d",
+        "length": 2,
+        "min": "",
+        "max": "",
+        "resolution": "",
+        "spec": {
+            "0": "Conditional Emergency Stop considered",
+            "1": "Conditional Emergency Stop ignored",
+            "2": "Not Relevant (Unconditional Emergency Stop)",
+            "3": "Spare"
+        }
+    },
+    {
+        "srs": "7.5.1.108",
+        "type": "Q",
+        "id": "Q_ENDTIMER",
+        "remark": null,
+        "edited": null,
+        "name": "Qualifier to indicate whether end section timer information exists for the End section in the MA",
+        "description": "",
+        "length": 1,
+        "min": "",
+        "max": "",
+        "resolution": "",
+        "spec": {
+            "0": "No End section timer information",
+            "1": "End section timer information to follow"
+        }
+    },
+    {
+        "srs": "7.5.1.109",
+        "type": "Q",
+        "id": "Q_FRONT",
+        "remark": null,
+        "edited": null,
+        "name": "Qualifier for validity end point of profile element",
+        "description": "Qualifier to indicate if a speed limit given for a profile element is to be applied until the front of the train (no train length delay) or the end of the train (train length delay) has left the element.",
+        "length": 1,
+        "min": "",
+        "max": "",
+        "resolution": "",
+        "spec": {
+            "0": "Train length delay on validity end point of profile element.",
+            "1": "No train length delay on validity end point of profile element"
+        }
+    },
+    {
+        "srs": "7.5.1.110",
+        "type": "Q",
+        "id": "Q_GDIR",
+        "remark": null,
+        "edited": null,
+        "name": "Qualifier for gradient slope.",
+        "description": "",
+        "length": 1,
+        "min": "",
+        "max": "",
+        "resolution": "",
+        "spec": {
+            "0": "downhill",
+            "1": "uphill"
+        }
+    },
+    {
+        "srs": "7.5.1.111",
+        "type": "Q",
+        "id": "Q_INFILL",
+        "remark": null,
+        "edited": null,
+        "name": "Qualifier to indicate whether a train is entering or exiting the radio infill area.",
+        "description": "",
+        "length": 1,
+        "min": "",
+        "max": "",
+        "resolution": "",
+        "spec": {
+            "0": "Enter",
+            "1": "Exit"
+        }
+    },
+    {
+        "srs": "7.5.1.112",
+        "type": "Q",
+        "id": "Q_LENGTH",
+        "remark": null,
+        "edited": null,
+        "name": "Qualifier for train integrity status",
+        "description": "Qualifier, identifying the train integrity information available. The  related safe train length information is given by  L_TRAININT",
+        "length": 2,
+        "min": "",
+        "max": "",
+        "resolution": "",
+        "spec": {
+            "0": "No train integrity information available",
+            "1": "Train integrity  confirmed by integrity monitoring device",
+            "2": "Train integrity confirmed by driver",
+            "3": "Train integrity lost"
+        }
+    },
+    {
+        "srs": "7.5.1.113",
+        "type": "Q",
+        "id": "Q_LGTLOC",
+        "remark": null,
+        "edited": null,
+        "name": "Qualifier for the specified report location",
+        "description": "This qualifier tells whether the train has to report its location when the max safe front end or  when the min safe rear end has over passed the location defined by D_LOC",
+        "length": 1,
+        "min": "",
+        "max": "",
+        "resolution": "",
+        "spec": {
+            "0": "Min safe rear end",
+            "1": "Max safe front end"
+        }
+    },
+    {
+        "srs": "7.5.1.114",
+        "type": "Q",
+        "id": "Q_LINK",
+        "remark": null,
+        "edited": null,
+        "name": "Link Qualifier",
+        "description": "This qualifier is used to mark a balise group as linked or unlinked.",
+        "length": 1,
+        "min": "",
+        "max": "",
+        "resolution": "",
+        "spec": {
+            "0": "Unlinked",
+            "1": "Linked"
+        }
+    },
+    {
+        "srs": "7.5.1.115",
+        "type": "Q",
+        "id": "Q_LOCACC",
+        "remark": null,
+        "edited": null,
+        "name": "Accuracy of the balise location",
+        "description": "This Qualifier defines the absolute value of the accuracy of the Balise location (i.e., the value 63m  identifies a location accuracy of +/- 63m)",
+        "length": 6,
+        "min": "0 m",
+        "max": "63 m",
+        "resolution": "1 m",
+        "spec": {}
+    },
+    {
+        "srs": "7.5.1.116",
+        "type": "Q",
+        "id": "Q_LINKORIENTATION",
+        "remark": null,
+        "edited": null,
+        "name": "Qualifier for the direction of the linked balise group",
+        "description": "Indicates whether the linked balise group will be overpassed by the train in nominal or reverse direction.",
+        "length": 1,
+        "min": "",
+        "max": "",
+        "resolution": "",
+        "spec": {
+            "0": "The balise group is seen by the train in reverse direction",
+            "1": "The balise group is seen by the train in nominal direction"
+        }
+    },
+    {
+        "srs": "7.5.1.117",
+        "type": "Q",
+        "id": "Q_LINKREACTION",
+        "remark": null,
+        "edited": null,
+        "name": "linking reaction",
+        "description": "Qualifier for the reaction to be performed if a linking or a balise group message consistency problem occurs with the balise group linked to.",
+        "length": 2,
+        "min": "",
+        "max": "",
+        "resolution": "",
+        "spec": {
+            "00": "Train trip",
+            "01": "Apply service brake",
+            "10": "No Reaction",
+            "11": "Spare"
+        }
+    },
+    {
+        "srs": "7.5.1.118",
+        "type": "Q",
+        "id": "Q_LOOPDIR",
+        "remark": null,
+        "edited": null,
+        "name": "Qualifier to indicate the direction of the loop",
+        "description": "Indicates LOOP-reference direction in relation to EOLM direction",
+        "length": 1,
+        "min": "",
+        "max": "",
+        "resolution": "",
+        "spec": {
+            "0": "Opposite",
+            "1": "Same"
+        }
+    },
+    {
+        "srs": "7.5.1.119",
+        "type": "Q",
+        "id": "Q_MEDIA",
+        "remark": null,
+        "edited": null,
+        "name": "Qualifier to indicate the type of media",
+        "description": "Indicates whether it is a balise telegram or a loop message",
+        "length": 1,
+        "min": "",
+        "max": "",
+        "resolution": "",
+        "spec": {
+            "0": "Balise",
+            "1": "Loop"
+        }
+    },
+    {
+        "srs": "7.5.1.120",
+        "type": "Q",
+        "id": "Q_MPOSITION",
+        "remark": null,
+        "edited": null,
+        "name": "Qualifier for track kilometre direction.",
+        "description": "Qualifier to indicate the direction of counting of the geographical position track kilometre in relation to the geographical position reference balise group directionality.",
+        "length": 1,
+        "min": "0",
+        "max": "1",
+        "resolution": "",
+        "spec": {
+            "0": "Opposite  (counting downwards if passed in nominal direction or counting upwards if passed in reverse direction)",
+            "1": "Same (counting upwards if passed in nominal direction or counting downwards if passed in reverse direction)"
+        }
+    },
+    {
+        "srs": "7.5.1.121",
+        "type": "Q",
+        "id": "Q_NEWCOUNTRY",
+        "remark": null,
+        "edited": null,
+        "name": "New Country Qualifier",
+        "description": "Qualifier to indicate whether the next balise group is in the same country / railway administration as the one before inside the packet or not.\nFor the first balise group in the packet, if Q_NEWCOUNTRY = 0, it is the same country / railway administration as the one of the LRBG within the radio message or the one of balise group within the balise telegram giving the packet.",
+        "length": 1,
+        "min": "",
+        "max": "",
+        "resolution": "",
+        "spec": {
+            "0": "Same country / railway administration, no NID_C follows",
+            "1": "Not the same country / railway administration, NID_C follows"
+        }
+    },
+    {
+        "srs": "7.5.1.122",
+        "type": "Q",
+        "id": "Q_NVDRIVER_ADHES",
+        "remark": null,
+        "edited": null,
+        "name": "Qualifier for the modification of trackside adhesion factor by driver",
+        "description": "This variable is part of the National Values",
+        "length": 1,
+        "min": "",
+        "max": "",
+        "resolution": "",
+        "spec": {
+            "0": "Not allowed",
+            "1": "Allowed"
+        }
+    },
+    {
+        "srs": "7.5.1.123",
+        "type": "Q",
+        "id": "Q_NVEMRRLS",
+        "remark": null,
+        "edited": null,
+        "name": "Qualifier Emergency Brake Release",
+        "description": "Permission to release the emergency brake immediately if the condition why the system has triggered the emergency brake (speed exceeds emergency brake intervention limit, lack of driver reaction) is not fulfilled any more.\nNote: The action to release the brakes (e.g., by pressing a button) is a different issue and depends on the braking system\nThis variable is part of the National Values",
+        "length": 1,
+        "min": "",
+        "max": "",
+        "resolution": "",
+        "spec": {
+            "0": "Release only at standstill possible",
+            "1": "Immediate release possible"
+        }
+    },
+    {
+        "srs": "7.5.1.124",
+        "type": "Q",
+        "id": "Q_NVSRBKTRG",
+        "remark": null,
+        "edited": null,
+        "name": "Permission to use service brake when braking to a target is supervised",
+        "description": "This variable is part of the National Values",
+        "length": 1,
+        "min": "",
+        "max": "",
+        "resolution": "",
+        "spec": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    {
+        "srs": "7.5.1.125",
+        "type": "Q",
+        "id": "Q_ORIENTATION",
+        "remark": null,
+        "edited": null,
+        "name": "Co-ordinate system  assigned to a single balise group",
+        "description": "The co-ordinate system is assigned by the RBC to a balise group reported by the on-board equipment as LRBG.  The information reverse/nominal (i.e., the assigned co-ordinate system) is given in relation to the direction in which the balise has been passed when reading it.",
+        "length": 1,
+        "min": "",
+        "max": "",
+        "resolution": "",
+        "spec": {
+            "0": "The balise group has been passed by the train in reverse direction",
+            "1": "The balise group has been passed by the train in nominal direction"
+        }
+    },
+    {
+        "srs": "7.5.1.126",
+        "type": "Q",
+        "id": "Q_OVERLAP",
+        "remark": null,
+        "edited": null,
+        "name": "Qualifier to tell whether there is an overlap",
+        "description": "This variable is set to 1 if either an overlap exists or a release speed has to be specified",
+        "length": 1,
+        "min": "",
+        "max": "",
+        "resolution": "",
+        "spec": {
+            "0": "No overlap information",
+            "1": "Overlap information to follow"
+        }
+    },
+    {
+        "srs": "7.5.1.127",
+        "type": "Q",
+        "id": "Q_RBC",
+        "remark": null,
+        "edited": null,
+        "name": "Qualifier for communication session order",
+        "description": "",
+        "length": 1,
+        "min": "",
+        "max": "",
+        "resolution": "",
+        "spec": {
+            "0": "Terminate communication session",
+            "1": "Establish communication session"
+        }
+    },
+    {
+        "srs": "7.5.1.128",
+        "type": "Q",
+        "id": "Q_RIU",
+        "remark": null,
+        "edited": null,
+        "name": "Qualifier for communication session order",
+        "description": "",
+        "length": 1,
+        "min": "",
+        "max": "",
+        "resolution": "",
+        "spec": {
+            "0": "Terminate communication session",
+            "1": "Establish communication session"
+        }
+    },
+    {
+        "srs": "7.5.1.129",
+        "type": "Q",
+        "id": "Q_SCALE",
+        "remark": null,
+        "edited": null,
+        "name": "Qualifier for the distance scale.",
+        "description": "Qualifier to indicate the same scale used for describing all distances inside the packet that contains Q_SCALE.",
+        "length": 2,
+        "min": "",
+        "max": "",
+        "resolution": "",
+        "spec": {
+            "0": "10 cm scale",
+            "1": "1 m scale",
+            "2": "10 m scale",
+            "3": "Spare"
+        }
+    },
+    {
+        "srs": "7.5.1.130",
+        "type": "Q",
+        "id": "Q_SECTIONTIMER",
+        "remark": null,
+        "edited": null,
+        "name": "Qualifier to indicate whether there is a Section Time Out related to the section",
+        "description": "",
+        "length": 1,
+        "min": "",
+        "max": "",
+        "resolution": "",
+        "spec": {
+            "0": "No Section Timer information",
+            "1": "Section Timer information to follow"
+        }
+    },
+    {
+        "srs": "7.5.1.131",
+        "type": "Q",
+        "id": "Q_SLEEPSESSION",
+        "remark": null,
+        "edited": null,
+        "name": "Session management for sleeping equipment",
+        "description": "Order for a Sleeping onboard equipment to consider or not the \u201csession management\u201d information",
+        "length": 1,
+        "min": "",
+        "max": "",
+        "resolution": "",
+        "spec": {
+            "0": "Ignore session management information",
+            "1": "Consider session management information"
+        }
+    },
+    {
+        "srs": "7.5.1.132",
+        "type": "Q",
+        "id": "Q_SRSTOP",
+        "remark": null,
+        "edited": null,
+        "name": "\u201cStop if in Staff Responsible\u201d information",
+        "description": "Specifies whether an onboard equipment in staff responsible has to stop or not",
+        "length": 1,
+        "min": "",
+        "max": "",
+        "resolution": "",
+        "spec": {
+            "0": "Stop if in SR mode",
+            "1": "Go if in SR mode"
+        }
+    },
+    {
+        "srs": "7.5.1.133",
+        "type": "Q",
+        "id": "Q_SSCODE",
+        "remark": null,
+        "edited": null,
+        "name": "Spread Spectrum Code for Euroloop",
+        "description": "Specifies the code required to receive telegrams from a specific Euroloop installation.",
+        "length": 4,
+        "min": "0",
+        "max": "15",
+        "resolution": "",
+        "spec": {
+            "15": "Code reserved for test purposes"
+        }
+    },
+    {
+        "srs": "7.5.1.134",
+        "type": "Q",
+        "id": "Q_STATUS",
+        "remark": null,
+        "edited": null,
+        "name": "status of SoM position report",
+        "description": "It provides the status of the position report",
+        "length": 2,
+        "min": "",
+        "max": "",
+        "resolution": "",
+        "spec": {
+            "00": "Invalid",
+            "01": "Valid",
+            "10": "Unknown",
+            "11": "spare"
+        }
+    },
+    {
+        "srs": "7.5.1.135",
+        "type": "Q",
+        "id": "Q_SUITABILITY",
+        "remark": null,
+        "edited": null,
+        "name": "Type of route suitability data",
+        "description": "",
+        "length": 2,
+        "min": "",
+        "max": "",
+        "resolution": "",
+        "spec": {
+            "00": "Loading gauge profile",
+            "01": "Max axle load",
+            "10": "Traction power",
+            "11": "Spare"
+        }
+    },
+    {
+        "srs": "7.5.1.136",
+        "type": "Q",
+        "id": "Q_TEXT",
+        "remark": "(Values to be assigned according to 7.3.1.3)",
+        "edited": null,
+        "name": "Fixed message to be displayed.",
+        "description": "Q_TEXT is a pointer to select a fixed text message from the defined table. The language selected by the driver for the MMI shall be used additionally as a qualifier to choose the appropriate language table.",
+        "length": 8,
+        "min": "0",
+        "max": "255",
+        "resolution": "",
+        "spec": {
+            "": ""
+        }
+    },
+    {
+        "srs": "7.5.1.137",
+        "type": "Q",
+        "id": "Q_TEXTCLASS",
+        "remark": null,
+        "edited": null,
+        "name": "Class of message to be displayed.",
+        "description": "Q_TEXTCLASS specifies the class of the text message included in the same packet (either plain or fixed message)",
+        "length": 2,
+        "min": "",
+        "max": "",
+        "resolution": "",
+        "spec": {
+            "00": "Auxiliary Information",
+            "01": "Important Information",
+            "10": "Spare",
+            "11": "Spare"
+        }
+    },
+    {
+        "srs": "7.5.1.138",
+        "type": "Q",
+        "id": "Q_TEXTCONFIRM",
+        "remark": null,
+        "edited": null,
+        "name": "Qualifies the need / reaction of text confirmation",
+        "description": "",
+        "length": 2,
+        "min": "",
+        "max": "",
+        "resolution": "",
+        "spec": {
+            "00": "No confirmation required",
+            "01": "Continue display until confirmed",
+            "10": "Apply service brake if not confirmed when end conditions reached",
+            "11": "Spare"
+        }
+    },
+    {
+        "srs": "7.5.1.139",
+        "type": "Q",
+        "id": "Q_TEXTDISPLAY",
+        "remark": null,
+        "edited": null,
+        "name": "Qualifier for the combination of text message conditions",
+        "description": "Q_TEXTDISPLAY defines whether the start/end conditions for text message are to be combined or not",
+        "length": 1,
+        "min": "",
+        "max": "",
+        "resolution": "",
+        "spec": {
+            "0": "No, display as soon as / until one of the conditions is fulfilled",
+            "1": "Yes, display as soon as / until all conditions are fulfilled"
+        }
+    },
+    {
+        "srs": "7.5.1.140",
+        "type": "Q",
+        "id": "Q_TRACKDEL",
+        "remark": null,
+        "edited": null,
+        "name": "Track description deleted.",
+        "description": "Qualifier to indicate whether the onboard has deleted (for any reason) track description or not.",
+        "length": 1,
+        "min": "",
+        "max": "",
+        "resolution": "",
+        "spec": {
+            "0": "No track description deleted",
+            "1": "Track description deleted"
+        }
+    },
+    {
+        "srs": "7.5.1.141",
+        "type": "Q",
+        "id": "Q_TRACKINIT",
+        "remark": null,
+        "edited": null,
+        "name": "Qualifier for resuming the initial states of the related track description of the packet.",
+        "description": "",
+        "length": 1,
+        "min": "",
+        "max": "",
+        "resolution": "",
+        "spec": {
+            "0": "No initial states to be resumed,  profile to follow",
+            "1": "Empty profile, initial states to be resumed"
+        }
+    },
+    {
+        "srs": "7.5.1.142",
+        "type": "Q",
+        "id": "Q_UPDOWN",
+        "remark": null,
+        "edited": null,
+        "name": "Balise telegram transmission direction",
+        "description": "It defines the direction of the information in the balise telegram",
+        "length": 1,
+        "min": "",
+        "max": "",
+        "resolution": "",
+        "spec": {
+            "0": "Down link telegram",
+            "1": "Up link telegram"
+        }
+    }
+]

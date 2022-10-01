@@ -1,0 +1,894 @@
+[
+    {
+        "srs": "8.7.1",
+        "type": "track to train",
+        "number": 2,
+        "name": "SR Authorisation",
+        "content": [
+            {
+                "id": "NID_MESSAGE",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "L_MESSAGE",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "T_TRAIN",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "M_ACK",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "NID_LRBG",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "Q_SCALE",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "D_SR",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "name": "Optional packets",
+                "remarks": ""
+            }
+        ],
+        "remark": null,
+        "edited": null
+    },
+    {
+        "srs": "8.7.2",
+        "type": "track to train",
+        "number": 3,
+        "name": "Movement Authority",
+        "content": [
+            {
+                "id": "NID_MESSAGE",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "L_MESSAGE",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "T_TRAIN",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "M_ACK",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "NID_LRBG",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "name": "Level 2/3 Movement Authority",
+                "remarks": "Packet 15"
+            },
+            {
+                "name": "Optional packets",
+                "remarks": ""
+            }
+        ],
+        "remark": null,
+        "edited": null
+    },
+    {
+        "srs": "8.7.3",
+        "type": "track to train",
+        "number": 6,
+        "name": "Recognition of exit from TRIP mode",
+        "content": [
+            {
+                "id": "NID_MESSAGE",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "L_MESSAGE",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "T_TRAIN",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "M_ACK",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "NID_LRBG",
+                "repetitions": null,
+                "remarks": ""
+            }
+        ],
+        "remark": null,
+        "edited": null
+    },
+    {
+        "srs": "8.7.4",
+        "type": "track to train",
+        "number": 8,
+        "name": "Acknowledgement of Train Data",
+        "content": [
+            {
+                "id": "NID_MESSAGE",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "L_MESSAGE",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "T_TRAIN",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "M_ACK",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "NID_LRBG",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "T_TRAIN",
+                "repetitions": null,
+                "remarks": "Reference to received train data message"
+            }
+        ],
+        "remark": null,
+        "edited": null
+    },
+    {
+        "srs": "8.7.5",
+        "type": "track to train",
+        "number": 9,
+        "name": "Request to Shorten MA",
+        "content": [
+            {
+                "id": "NID_MESSAGE",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "L_MESSAGE",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "T_TRAIN",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "M_ACK",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "NID_LRBG",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "name": "Level 2/3 Movement Authority",
+                "remarks": "Packet 15"
+            },
+            {
+                "name": "Optional packet",
+                "remarks": "Packet 80"
+            }
+        ],
+        "remark": null,
+        "edited": null
+    },
+    {
+        "srs": "8.7.6",
+        "type": "track to train",
+        "number": 15,
+        "name": "Conditional Emergency Stop",
+        "content": [
+            {
+                "id": "NID_MESSAGE",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "L_MESSAGE",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "T_TRAIN",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "M_ACK",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "NID_LRBG",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "NID_EM",
+                "repetitions": null,
+                "remarks": "Identification Number of the Emergency Stop Message."
+            },
+            {
+                "id": "Q_SCALE",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "D_REF",
+                "repetitions": null,
+                "remarks": "Variable D_REF shall not be included in version 2.3.0"
+            },
+            {
+                "id": "Q_DIR",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "D_EMERGENCYSTOP",
+                "repetitions": null,
+                "remarks": "Distance between LRBG and the position reference to the emergency stop."
+            }
+        ],
+        "remark": null,
+        "edited": null
+    },
+    {
+        "srs": "8.7.7",
+        "type": "track to train",
+        "number": 16,
+        "name": "Unconditional Emergency Stop",
+        "content": [
+            {
+                "id": "NID_MESSAGE",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "L_MESSAGE",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "T_TRAIN",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "M_ACK",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "NID_LRBG",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "NID_EM",
+                "repetitions": null,
+                "remarks": "Identification Number of the Emergency Stop Message."
+            }
+        ],
+        "remark": null,
+        "edited": null
+    },
+    {
+        "srs": "8.7.8",
+        "type": "track to train",
+        "number": 18,
+        "name": "Revocation of Emergency Stop",
+        "content": [
+            {
+                "id": "NID_MESSAGE",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "L_MESSAGE",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "T_TRAIN",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "M_ACK",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "NID_LRBG",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "NID_EM",
+                "repetitions": null,
+                "remarks": "Identification Number of the Emergency Stop Message."
+            }
+        ],
+        "remark": null,
+        "edited": null
+    },
+    {
+        "srs": "8.7.9",
+        "type": "track to train",
+        "number": 24,
+        "name": "General message",
+        "content": [
+            {
+                "id": "NID_MESSAGE",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "L_MESSAGE",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "T_TRAIN",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "M_ACK",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "NID_LRBG",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "name": "Optional packets",
+                "remarks": ""
+            }
+        ],
+        "remark": null,
+        "edited": null
+    },
+    {
+        "srs": "8.7.10",
+        "type": "track to train",
+        "number": 27,
+        "name": "SH Refused",
+        "content": [
+            {
+                "id": "NID_MESSAGE",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "L_MESSAGE",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "T_TRAIN",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "M_ACK",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "NID_LRBG",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "T_TRAIN",
+                "repetitions": null,
+                "remarks": "Time stamp of the shunting request."
+            }
+        ],
+        "remark": null,
+        "edited": null
+    },
+    {
+        "srs": "8.7.11",
+        "type": "track to train",
+        "number": 28,
+        "name": "SH Authorised",
+        "content": [
+            {
+                "id": "NID_MESSAGE",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "L_MESSAGE",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "T_TRAIN",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "M_ACK",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "NID_LRBG",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "T_TRAIN",
+                "repetitions": null,
+                "remarks": "Time stamp of the shunting request."
+            },
+            {
+                "name": "Optional packets",
+                "remarks": ""
+            }
+        ],
+        "remark": null,
+        "edited": null
+    },
+    {
+        "srs": "8.7.12",
+        "type": "track to train",
+        "number": 32,
+        "name": "Configuration Determination",
+        "content": [
+            {
+                "id": "NID_MESSAGE",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "L_MESSAGE",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "T_TRAIN",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "M_ACK",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "NID_LRBG",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "M_VERSION",
+                "repetitions": null,
+                "remarks": "Version of the ERTMS/ETCS language."
+            }
+        ],
+        "remark": null,
+        "edited": null
+    },
+    {
+        "srs": "8.7.13",
+        "type": "track to train",
+        "number": 33,
+        "name": "MA with Shifted Location Reference",
+        "content": [
+            {
+                "id": "NID_MESSAGE",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "L_MESSAGE",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "T_TRAIN",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "M_ACK",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "NID_LRBG",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "Q_SCALE",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "D_REF",
+                "repetitions": null,
+                "remarks": "Reference Distance"
+            },
+            {
+                "name": "Level 2/3 Movement Authority",
+                "remarks": "Packet 15"
+            },
+            {
+                "name": "Optional packets",
+                "remarks": ""
+            }
+        ],
+        "remark": null,
+        "edited": null
+    },
+    {
+        "srs": "8.7.14",
+        "type": "track to train",
+        "number": 34,
+        "name": "Track Ahead Free Request",
+        "content": [
+            {
+                "id": "NID_MESSAGE",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "L_MESSAGE",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "T_TRAIN",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "M_ACK",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "NID_LRBG",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "Q_SCALE",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "D_REF",
+                "repetitions": null,
+                "remarks": "Variable D_REF shall not be included in version 2.3.0"
+            },
+            {
+                "id": "Q_DIR",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "D_TAFDISPLAY",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "L_TAFDISPLAY",
+                "repetitions": null,
+                "remarks": ""
+            }
+        ],
+        "remark": null,
+        "edited": null
+    },
+    {
+        "srs": "8.7.15",
+        "type": "track to train",
+        "number": 37,
+        "name": "In",
+        "content": [
+            {
+                "id": "NID_MESSAGE",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "L_MESSAGE",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "T_TRAIN",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "M_ACK",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "NID_LRBG",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "name": "Infill Location Reference",
+                "remarks": "Packet 136"
+            },
+            {
+                "name": "Level 1 Movement Authority",
+                "remarks": "Packet 12"
+            },
+            {
+                "name": "Optional packets",
+                "remarks": ""
+            }
+        ],
+        "remark": null,
+        "edited": null
+    },
+    {
+        "srs": "8.7.16",
+        "type": "track to train",
+        "number": 38,
+        "name": "Initiation of a communication session",
+        "content": [
+            {
+                "name": "",
+                "remarks": ""
+            },
+            {
+                "id": "NID_MESSAGE",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "L_MESSAGE",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "T_TRAIN",
+                "repetitions": null,
+                "remarks": "(unknown)"
+            },
+            {
+                "id": "M_ACK",
+                "repetitions": null,
+                "remarks": "(yes)"
+            },
+            {
+                "id": "NID_LRBG",
+                "repetitions": null,
+                "remarks": "(unknown)"
+            }
+        ],
+        "remark": null,
+        "edited": null
+    },
+    {
+        "srs": "8.7.17",
+        "type": "track to train",
+        "number": 39,
+        "name": "Acknowledgement of termination of a communication session",
+        "content": [
+            {
+                "id": "NID_MESSAGE",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "L_MESSAGE",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "T_TRAIN",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "M_ACK",
+                "repetitions": null,
+                "remarks": "(no)"
+            },
+            {
+                "id": "NID_LRBG",
+                "repetitions": null,
+                "remarks": ""
+            }
+        ],
+        "remark": null,
+        "edited": null
+    },
+    {
+        "srs": "8.7.18",
+        "type": "track to train",
+        "number": 40,
+        "name": "Train Rejected",
+        "content": [
+            {
+                "id": "NID_MESSAGE",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "L_MESSAGE",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "T_TRAIN",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "M_ACK",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "NID_LRBG",
+                "repetitions": null,
+                "remarks": ""
+            }
+        ],
+        "remark": null,
+        "edited": null
+    },
+    {
+        "srs": "8.7.19",
+        "type": "track to train",
+        "number": 41,
+        "name": "Train Accepted",
+        "content": [
+            {
+                "id": "NID_MESSAGE",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "L_MESSAGE",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "T_TRAIN",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "M_ACK",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "NID_LRBG",
+                "repetitions": null,
+                "remarks": ""
+            }
+        ],
+        "remark": null,
+        "edited": null
+    },
+    {
+        "srs": "8.7.21",
+        "type": "track to train",
+        "number": 43,
+        "name": "SoM position report confirmed by RBC",
+        "content": [
+            {
+                "id": "NID_MESSAGE",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "L_MESSAGE",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "T_TRAIN",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "M_ACK",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "NID_LRBG",
+                "repetitions": null,
+                "remarks": ""
+            }
+        ],
+        "remark": null,
+        "edited": null
+    },
+    {
+        "srs": "8.7.22",
+        "type": "track to train",
+        "number": 45,
+        "name": "Assignment of coordinate system",
+        "content": [
+            {
+                "id": "NID_MESSAGE",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "L_MESSAGE",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "T_TRAIN",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "M_ACK",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "NID_LRBG",
+                "repetitions": null,
+                "remarks": ""
+            },
+            {
+                "id": "Q_ORIENTATION",
+                "repetitions": null,
+                "remarks": ""
+            }
+        ],
+        "remark": null,
+        "edited": null
+    }
+]

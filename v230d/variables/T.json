@@ -1,0 +1,195 @@
+[
+    {
+        "srs": "7.5.1.143",
+        "type": "T",
+        "id": "T_CYCLOC",
+        "remark": null,
+        "edited": null,
+        "name": "Time Interval between two location reports sent by the train",
+        "description": "The train must send its location every T_CYCLOC",
+        "length": 8,
+        "min": "0 seconds",
+        "max": "254 s",
+        "resolution": "1s",
+        "spec": {
+            "255": ""
+        }
+    },
+    {
+        "srs": "7.5.1.144",
+        "type": "T",
+        "id": "T_CYCRQST",
+        "remark": null,
+        "edited": null,
+        "name": "Time between two cyclic requests for a movement authority",
+        "description": "When the train asks for a movement authority request, it will repeat its request every T_CYCRQST seconds until it receives a new MA",
+        "length": 8,
+        "min": "0 seconds",
+        "max": "254 s",
+        "resolution": "1s",
+        "spec": {
+            "0": "Leads to continuous request",
+            "255": "No repetition"
+        }
+    },
+    {
+        "srs": "7.5.1.145",
+        "type": "T",
+        "id": "T_ENDTIMER",
+        "remark": null,
+        "edited": null,
+        "name": "Validity time for the End section in the MA",
+        "description": "Time for which the End section is valid measured from the moment the train reaches the location defined by D_ENDTIMERSTARTLOC.",
+        "length": 10,
+        "min": "0",
+        "max": "1022",
+        "resolution": "1 s",
+        "spec": {
+            "1023": ""
+        }
+    },
+    {
+        "srs": "7.5.1.146",
+        "type": "T",
+        "id": "T_LOA",
+        "remark": null,
+        "edited": null,
+        "name": "Validity time for the target speedat the LOA",
+        "description": "Time for which the target speed is valid measured from the moment information is received",
+        "length": 10,
+        "min": "0",
+        "max": "1022",
+        "resolution": "1 s",
+        "spec": {
+            "1023": ""
+        }
+    },
+    {
+        "srs": "7.5.1.147",
+        "type": "T",
+        "id": "T_MAR",
+        "remark": null,
+        "edited": null,
+        "name": "Time before reaching indication limit for the EOA/LOA",
+        "description": "",
+        "length": 8,
+        "min": "0",
+        "max": "254",
+        "resolution": "1 s",
+        "spec": {
+            "255": "Not relevant"
+        }
+    },
+    {
+        "srs": "7.5.1.148",
+        "type": "T",
+        "id": "T_NVCONTACT",
+        "remark": null,
+        "edited": null,
+        "name": "Maximal time without new \u201csafe\u201d message.",
+        "description": "If no \u201csafe\u201d message has been received from the track for more than T_NVCONTACT seconds, an appropriate action according to M_NVCONTACT must be triggered.\nThis variable is part of the National Values",
+        "length": 8,
+        "min": "0s",
+        "max": "254s",
+        "resolution": "1s",
+        "spec": {
+            "1111 1111": "T_NVCONTACT = ."
+        }
+    },
+    {
+        "srs": "7.5.1.149",
+        "type": "T",
+        "id": "T_NVOVTRP",
+        "remark": null,
+        "edited": null,
+        "name": "Maximum time for overriding the train trip",
+        "description": "This variable is part of the National Values",
+        "length": 8,
+        "min": "0 s",
+        "max": "255 s",
+        "resolution": "1 s",
+        "spec": {
+            "": ""
+        }
+    },
+    {
+        "srs": "7.5.1.150",
+        "type": "T",
+        "id": "T_OL",
+        "remark": null,
+        "edited": null,
+        "name": "Overlap validity time",
+        "description": "The time span the train can expect the overlap to be available, measured from the moment the train reaches the location defined by D_STARTOL.",
+        "length": 10,
+        "min": "0",
+        "max": "1022 s",
+        "resolution": "1 s",
+        "spec": {
+            "1023": ""
+        }
+    },
+    {
+        "srs": "7.5.1.151",
+        "type": "T",
+        "id": "T_SECTIONTIMER",
+        "remark": null,
+        "edited": null,
+        "name": "Validity time of a section in the MA",
+        "description": "Time for which the section is valid.",
+        "length": 10,
+        "min": "0",
+        "max": "1022",
+        "resolution": "1 s",
+        "spec": {
+            "1023": ""
+        }
+    },
+    {
+        "srs": "7.5.1.152",
+        "type": "T",
+        "id": "T_TEXTDISPLAY",
+        "remark": null,
+        "edited": null,
+        "name": "Time until when a text shall be displayed",
+        "description": "",
+        "length": 10,
+        "min": "0",
+        "max": "1022 s",
+        "resolution": "1 s",
+        "spec": {
+            "1023": "Display of text not limited by time."
+        }
+    },
+    {
+        "srs": "7.5.1.153",
+        "type": "T",
+        "id": "T_TIMEOUTRQST",
+        "remark": null,
+        "edited": null,
+        "name": "Time before any section timer expires",
+        "description": "",
+        "length": 10,
+        "min": "0",
+        "max": "1022",
+        "resolution": "1 s",
+        "spec": {
+            "1023": "Not relevant"
+        }
+    },
+    {
+        "srs": "7.5.1.154",
+        "type": "T",
+        "id": "T_TRAIN",
+        "remark": null,
+        "edited": null,
+        "name": "Trainborne clock",
+        "description": "Time, according to trainborne clock, at which message is sent",
+        "length": 32,
+        "min": "0",
+        "max": "42949672.94  s",
+        "resolution": "10 ms",
+        "spec": {
+            "4294967295": "Unknown"
+        }
+    }
+]

@@ -1,0 +1,52 @@
+[
+    {
+        "srs": "7.5.1.80",
+        "type": "N",
+        "id": "N_ITER",
+        "remark": null,
+        "edited": null,
+        "name": "Number of iterations of a data set following this variable in a packet",
+        "description": "If N_ITER is 0 then no data set is following. Two nested levels of iterations can exist.",
+        "length": 5,
+        "min": "0",
+        "max": "31",
+        "resolution": "integers",
+        "spec": {}
+    },
+    {
+        "srs": "7.5.1.81",
+        "type": "N",
+        "id": "N_PIG",
+        "remark": null,
+        "edited": null,
+        "name": "Position in Group",
+        "description": "Defines the relative position in a balise group",
+        "length": 3,
+        "min": "",
+        "max": "",
+        "resolution": "",
+        "spec": {
+            "0": "I am the 1st",
+            "\u2026": "\u2026",
+            "7": "I am the 8th"
+        }
+    },
+    {
+        "srs": "7.5.1.82",
+        "type": "N",
+        "id": "N_TOTAL",
+        "remark": null,
+        "edited": null,
+        "name": "Total number of balise(s) in the group",
+        "description": "",
+        "length": 3,
+        "min": "",
+        "max": "",
+        "resolution": "",
+        "spec": {
+            "0": "1 balise in the group",
+            "\u2026": "",
+            "7": "8 balises in the group"
+        }
+    }
+]

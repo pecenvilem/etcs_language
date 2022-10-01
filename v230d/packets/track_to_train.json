@@ -1,0 +1,2599 @@
+[
+    {
+        "srs": "7.4.2.1",
+        "type": "track to train",
+        "number": 3,
+        "name": "National Values",
+        "remark": null,
+        "edited": null,
+        "description": "Downloads a set of National Values to the train",
+        "media": "Any",
+        "content": [
+            {
+                "id": "NID_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_DIR",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "L_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_SCALE",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "D_VALIDNV",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "N_ITER",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "NID_C",
+                "repetitions": "k",
+                "comment": "Identification of national area(s) to which the set applies"
+            },
+            {
+                "id": "V_NVSHUNT",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "V_NVSTFF",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "V_NVONSIGHT",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "V_NVUNFIT",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "V_NVREL",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "D_NVROLL",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_NVSRBKTRG",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_NVEMRRLS",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "V_NVALLOWOVTRP",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "V_NVSUPOVTRP",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "D_NVOVTRP",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "T_NVOVTRP",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "D_NVPOTRP",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "M_NVCONTACT",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "T_NVCONTACT",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "M_NVDERUN",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "D_NVSTFF",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_NVDRIVER_ADHES",
+                "repetitions": "",
+                "comment": ""
+            }
+        ]
+    },
+    {
+        "srs": "7.4.2.2",
+        "type": "track to train",
+        "number": 5,
+        "name": "Linking",
+        "remark": null,
+        "edited": null,
+        "description": "Linking Information.",
+        "media": "Any",
+        "content": [
+            {
+                "id": "NID_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_DIR",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "L_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_SCALE",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "D_LINK",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_NEWCOUNTRY",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "NID_C",
+                "repetitions": "",
+                "comment": "if Q_NEWCOUNTRY = 1"
+            },
+            {
+                "id": "NID_BG",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_LINKORIENTATION",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_LINKREACTION",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_LOCACC",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "N_ITER",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "D_LINK",
+                "repetitions": "k",
+                "comment": ""
+            },
+            {
+                "id": "Q_NEWCOUNTRY",
+                "repetitions": "k",
+                "comment": ""
+            },
+            {
+                "id": "NID_C",
+                "repetitions": "k",
+                "comment": "if Q_NEWCOUNTRY = 1"
+            },
+            {
+                "id": "NID_BG",
+                "repetitions": "k",
+                "comment": ""
+            },
+            {
+                "id": "Q_LINKORIENTATION",
+                "repetitions": "k",
+                "comment": ""
+            },
+            {
+                "id": "Q_LINKREACTION",
+                "repetitions": "k",
+                "comment": ""
+            },
+            {
+                "id": "Q_LOCACC",
+                "repetitions": "k",
+                "comment": ""
+            }
+        ]
+    },
+    {
+        "srs": "7.4.2.3",
+        "type": "track to train",
+        "number": 12,
+        "name": "Level 1 Movement Authority",
+        "remark": null,
+        "edited": null,
+        "description": "Transmission of a movement authority for level 1.",
+        "media": "Balise",
+        "content": [
+            {
+                "id": "NID_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_DIR",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "L_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_SCALE",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "V_MAIN",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "V_LOA",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "T_LOA",
+                "repetitions": "",
+                "comment": "Can be set to \u201cno time out\u201d"
+            },
+            {
+                "id": "N_ITER",
+                "repetitions": "",
+                "comment": "Set to zero if V_MAIN = 0 or if only one section in the MA"
+            },
+            {
+                "id": "L_SECTION",
+                "repetitions": "k",
+                "comment": ""
+            },
+            {
+                "id": "Q_SECTIONTIMER",
+                "repetitions": "k",
+                "comment": ""
+            },
+            {
+                "id": "T_SECTIONTIMER",
+                "repetitions": "k",
+                "comment": ""
+            },
+            {
+                "id": "D_SECTIONTIMERSTOPLOC",
+                "repetitions": "k",
+                "comment": ""
+            },
+            {
+                "id": "L_ENDSECTION",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_SECTIONTIMER",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "T_SECTIONTIMER",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "D_SECTIONTIMERSTOPLOC",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_ENDTIMER",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "T_ENDTIMER",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "D_ENDTIMERSTARTLOC",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_DANGERPOINT",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "D_DP",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "V_RELEASEDP",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_OVERLAP",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "D_STARTOL",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "T_OL",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "D_OL",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "V_RELEASEOL",
+                "repetitions": "",
+                "comment": ""
+            }
+        ]
+    },
+    {
+        "srs": "7.4.2.4",
+        "type": "track to train",
+        "number": 15,
+        "name": "Level 2",
+        "remark": null,
+        "edited": null,
+        "description": "Transmission of a movement authority for levels 2/3.",
+        "media": "Radio",
+        "content": [
+            {
+                "id": "NID_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_DIR",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "L_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_SCALE",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "V_LOA",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "T_LOA",
+                "repetitions": "",
+                "comment": "Can be set to \u201cno time out\u201d"
+            },
+            {
+                "id": "N_ITER",
+                "repetitions": "",
+                "comment": "Set to zero if only one section in the MA"
+            },
+            {
+                "id": "L_SECTION",
+                "repetitions": "k",
+                "comment": ""
+            },
+            {
+                "id": "Q_SECTIONTIMER",
+                "repetitions": "k",
+                "comment": ""
+            },
+            {
+                "id": "T_SECTIONTIMER",
+                "repetitions": "k",
+                "comment": ""
+            },
+            {
+                "id": "D_SECTIONTIMERSTOPLOC",
+                "repetitions": "k",
+                "comment": ""
+            },
+            {
+                "id": "L_ENDSECTION",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_SECTIONTIMER",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "T_SECTIONTIMER",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "D_SECTIONTIMERSTOPLOC",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_ENDTIMER",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "T_ENDTIMER",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "D_ENDTIMERSTARTLOC",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_DANGERPOINT",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "D_DP",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "V_RELEASEDP",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_OVERLAP",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "D_STARTOL",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "T_OL",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "D_OL",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "V_RELEASEOL",
+                "repetitions": "",
+                "comment": ""
+            }
+        ]
+    },
+    {
+        "srs": "7.4.2.5",
+        "type": "track to train",
+        "number": 16,
+        "name": "Repositioning Information",
+        "remark": null,
+        "edited": null,
+        "description": "Transmission of the update of the current distance",
+        "media": "Balise",
+        "content": [
+            {
+                "id": "NID_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_DIR",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "L_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_SCALE",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "L_SECTION",
+                "repetitions": "",
+                "comment": ""
+            }
+        ]
+    },
+    {
+        "srs": "7.4.2.6",
+        "type": "track to train",
+        "number": 21,
+        "name": "Gradient Profile",
+        "remark": null,
+        "edited": null,
+        "description": "Transmission of the gradient.\nD_GRADIENT gives the distance to the next change of the gradient value. The gradient value is the minimum gradient for the given distance.",
+        "media": "Any",
+        "content": [
+            {
+                "id": "NID_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_DIR",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "L_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_SCALE",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "D_GRADIENT",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_GDIR",
+                "repetitions": "",
+                "comment": "0 = downhill 1= uphill"
+            },
+            {
+                "id": "G_A",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "N_ITER",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "D_GRADIENT",
+                "repetitions": "k",
+                "comment": ""
+            },
+            {
+                "id": "Q_GDIR",
+                "repetitions": "k",
+                "comment": "0 = downhill 1= uphill"
+            },
+            {
+                "id": "G_A",
+                "repetitions": "k",
+                "comment": ""
+            }
+        ]
+    },
+    {
+        "srs": "7.4.2.7",
+        "type": "track to train",
+        "number": 27,
+        "name": "International Static Speed Profile",
+        "remark": null,
+        "edited": null,
+        "description": "Static speed profile and optionally speed limits depending on the international train category.",
+        "media": "Any",
+        "content": [
+            {
+                "id": "NID_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_DIR",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "L_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_SCALE",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "D_STATIC",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "V_STATIC",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_FRONT",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "N_ITER",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "NC_DIFF",
+                "repetitions": "n",
+                "comment": ""
+            },
+            {
+                "id": "V_DIFF",
+                "repetitions": "n",
+                "comment": ""
+            },
+            {
+                "id": "N_ITER",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "D_STATIC",
+                "repetitions": "k",
+                "comment": ""
+            },
+            {
+                "id": "V_STATIC",
+                "repetitions": "k",
+                "comment": ""
+            },
+            {
+                "id": "Q_FRONT",
+                "repetitions": "k",
+                "comment": ""
+            },
+            {
+                "id": "N_ITER",
+                "repetitions": "k",
+                "comment": ""
+            },
+            {
+                "id": "NC_DIFF",
+                "repetitions": "k,m",
+                "comment": ""
+            },
+            {
+                "id": "V_DIFF",
+                "repetitions": "k,m",
+                "comment": ""
+            }
+        ]
+    },
+    {
+        "srs": "7.4.2.8",
+        "type": "track to train",
+        "number": 39,
+        "name": "Track Condition Change of traction power",
+        "remark": null,
+        "edited": null,
+        "description": "The packet gives information about change of the traction power system.",
+        "media": "Any",
+        "content": [
+            {
+                "id": "NID_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_DIR",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "L_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_SCALE",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "D_TRACTION",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "M_TRACTION",
+                "repetitions": "",
+                "comment": "Type of traction."
+            }
+        ]
+    },
+    {
+        "srs": "7.4.2.9",
+        "type": "track to train",
+        "number": 41,
+        "name": "Level Transition Order",
+        "remark": null,
+        "edited": null,
+        "description": "Packet to identify where a level transition shall take place. In case of mixed levels, the successive M_LEVELTR\u2019s go from the highest priority level to the lowest one.",
+        "media": "Any",
+        "content": [
+            {
+                "id": "NID_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_DIR",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "L_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_SCALE",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "D_LEVELTR",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "M_LEVELTR",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "NID_STM",
+                "repetitions": "",
+                "comment": "If M_LEVELTR = 1 (STM)"
+            },
+            {
+                "id": "L_ACKLEVELTR",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "N_ITER",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "M_LEVELTR",
+                "repetitions": "k",
+                "comment": ""
+            },
+            {
+                "id": "NID_STM",
+                "repetitions": "k",
+                "comment": "If M_LEVELTR = 1 (STM)"
+            },
+            {
+                "id": "L_ACKLEVELTR",
+                "repetitions": "k",
+                "comment": ""
+            }
+        ]
+    },
+    {
+        "srs": "7.4.2.10",
+        "type": "track to train",
+        "number": 42,
+        "name": "Session Management",
+        "remark": null,
+        "edited": null,
+        "description": "Packet to give the identity and telephone number of the RBC with which a session shall be established or terminated.",
+        "media": "Any",
+        "content": [
+            {
+                "id": "NID_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_DIR",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "L_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_RBC",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "NID_C",
+                "repetitions": "",
+                "comment": "RBC ETCS identity : \nNID_C not relevant if NID_RBC has value unknown"
+            },
+            {
+                "id": "NID_RBC",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "NID_RADIO",
+                "repetitions": "",
+                "comment": "not relevant if NID_RBC has value unknown"
+            },
+            {
+                "id": "Q_SLEEPSESSION",
+                "repetitions": "",
+                "comment": ""
+            }
+        ]
+    },
+    {
+        "srs": "7.4.2.11",
+        "type": "track to train",
+        "number": 44,
+        "name": "Data used by applications outside the ERTMS",
+        "remark": null,
+        "edited": null,
+        "description": "Messages between trackside and on-board devices, which contain information used by applications outside the ERTMS/ETCS system.",
+        "media": "Any",
+        "content": [
+            {
+                "id": "NID_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_DIR",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "L_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "NID_XUSER",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "NID_XUSER",
+                "repetitions": "",
+                "comment": ""
+            }
+        ]
+    },
+    {
+        "srs": "7.4.2.11.1",
+        "type": "track to train",
+        "number": 45,
+        "name": "Radio Network registration",
+        "remark": null,
+        "edited": null,
+        "description": "Packet to give the identity of the Radio Network to which a registration shall be enforced.",
+        "media": "Any",
+        "content": [
+            {
+                "id": "NID_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_DIR",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "L_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "NID_MN",
+                "repetitions": "",
+                "comment": ""
+            }
+        ]
+    },
+    {
+        "srs": "7.4.2.11.2",
+        "type": "track to train",
+        "number": 46,
+        "name": "Conditional Level Transition Order",
+        "remark": null,
+        "edited": null,
+        "description": "Packet for a conditional level transition. The successive M_LEVELTR\u2019s go from the highest priority level to the lowest one.",
+        "media": "Any",
+        "content": [
+            {
+                "id": "NID_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_DIR",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "L_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "M_LEVELTR",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "NID_STM",
+                "repetitions": "",
+                "comment": "If M_LEVELTR = 1 (STM)"
+            },
+            {
+                "id": "N_ITER",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "M_LEVELTR",
+                "repetitions": "k",
+                "comment": ""
+            },
+            {
+                "id": "NID_STM",
+                "repetitions": "k",
+                "comment": "If M_LEVELTR = 1 (STM)"
+            }
+        ]
+    },
+    {
+        "srs": "7.4.2.12",
+        "type": "track to train",
+        "number": 49,
+        "name": "List of balises for SH Area",
+        "remark": null,
+        "edited": null,
+        "description": "Used to list balise group(s) which the train can pass over in SH mode",
+        "media": "Any",
+        "content": [
+            {
+                "id": "NID_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_DIR",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "L_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "N_ITER",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_NEWCOUNTRY",
+                "repetitions": "k",
+                "comment": ""
+            },
+            {
+                "id": "NID_C",
+                "repetitions": "k",
+                "comment": "if Q_NEWCOUNTRY = 1"
+            },
+            {
+                "id": "NID_BG",
+                "repetitions": "k",
+                "comment": ""
+            }
+        ]
+    },
+    {
+        "srs": "7.4.2.13",
+        "type": "track to train",
+        "number": 51,
+        "name": "Axle Load Speed Profile",
+        "remark": null,
+        "edited": null,
+        "description": "This packet gives the speed restrictions for trains with axle load higher than or equal to the specified value for the speed restriction",
+        "media": "Any",
+        "content": [
+            {
+                "id": "NID_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_DIR",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "L_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_SCALE",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_TRACKINIT",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "D_AXLELOAD",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "L_AXLELOAD",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_FRONT",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "N_ITER",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "M_AXLELOAD",
+                "repetitions": "n",
+                "comment": ""
+            },
+            {
+                "id": "V_AXLELOAD",
+                "repetitions": "n",
+                "comment": "Speed restriction to be applied if the axle load of the train  M_AXLELOAD(n)"
+            },
+            {
+                "id": "N_ITER",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "D_AXLELOAD",
+                "repetitions": "k",
+                "comment": ""
+            },
+            {
+                "id": "L_AXLELOAD",
+                "repetitions": "k",
+                "comment": ""
+            },
+            {
+                "id": "Q_FRONT",
+                "repetitions": "k",
+                "comment": ""
+            },
+            {
+                "id": "N_ITER",
+                "repetitions": "k",
+                "comment": ""
+            },
+            {
+                "id": "M_AXLELOAD",
+                "repetitions": "k,m",
+                "comment": ""
+            },
+            {
+                "id": "V_AXLELOAD",
+                "repetitions": "k,m",
+                "comment": "Speed restriction to be applied if the axle load of the train  M_AXLELOAD(k,m)"
+            }
+        ]
+    },
+    {
+        "srs": "7.4.2.14",
+        "type": "track to train",
+        "number": 57,
+        "name": "Movement Authority Request Parameters",
+        "remark": null,
+        "edited": null,
+        "description": "This packet is intended to give parameters telling when and how often the train has to ask for a movement authority.",
+        "media": "Radio",
+        "content": [
+            {
+                "id": "NID_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_DIR",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "L_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "T_MAR",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "T_TIMEOUTRQST",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "T_CYCRQST",
+                "repetitions": "",
+                "comment": ""
+            }
+        ]
+    },
+    {
+        "srs": "7.4.2.15",
+        "type": "track to train",
+        "number": 58,
+        "name": "Position Report Parameters",
+        "remark": null,
+        "edited": null,
+        "description": "This packet is intended to give parameters telling when and how often the position has to be reported.",
+        "media": "Radio",
+        "content": [
+            {
+                "id": "NID_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_DIR",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "L_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_SCALE",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "T_CYCLOC",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "D_CYCLOC",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "M_LOC",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "N_ITER",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "D_LOC",
+                "repetitions": "k",
+                "comment": ""
+            },
+            {
+                "id": "Q_LGTLOC",
+                "repetitions": "k",
+                "comment": ""
+            }
+        ]
+    },
+    {
+        "srs": "7.4.2.16",
+        "type": "track to train",
+        "number": 63,
+        "name": "List of Balises in SR Authority",
+        "remark": null,
+        "edited": null,
+        "description": "Used to list balise group(s) which the train can pass over in SR mode",
+        "media": "Radio",
+        "content": [
+            {
+                "id": "NID_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_DIR",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "L_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "N_ITER",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_NEWCOUNTRY",
+                "repetitions": "k",
+                "comment": ""
+            },
+            {
+                "id": "NID_C",
+                "repetitions": "k",
+                "comment": "if Q_NEWCOUNTRY = 1"
+            },
+            {
+                "id": "NID_BG",
+                "repetitions": "k",
+                "comment": ""
+            }
+        ]
+    },
+    {
+        "srs": "7.4.2.17",
+        "type": "track to train",
+        "number": 65,
+        "name": "Temporary Speed Restriction",
+        "remark": null,
+        "edited": null,
+        "description": "Transmission of temporary speed restriction.",
+        "media": "Any",
+        "content": [
+            {
+                "id": "NID_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_DIR",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "L_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_SCALE",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "NID_TSR",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "D_TSR",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "L_TSR",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_FRONT",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "V_TSR",
+                "repetitions": "",
+                "comment": ""
+            }
+        ]
+    },
+    {
+        "srs": "7.4.2.18",
+        "type": "track to train",
+        "number": 66,
+        "name": "Temporary Speed Restriction Revocation",
+        "remark": null,
+        "edited": null,
+        "description": "Transmission of temporary speed restriction revocation.",
+        "media": "Any",
+        "content": [
+            {
+                "id": "NID_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_DIR",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "L_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "NID_TSR",
+                "repetitions": "",
+                "comment": "Identity of TSR to be revoked"
+            }
+        ]
+    },
+    {
+        "srs": "7.4.2.19",
+        "type": "track to train",
+        "number": 67,
+        "name": "Track Condition Big Metal Masses",
+        "remark": null,
+        "edited": null,
+        "description": "The packet gives details concerning where to ignore integrity check alarms of balise transmission due to big metal masses trackside.",
+        "media": "Balise",
+        "content": [
+            {
+                "id": "NID_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_DIR",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "L_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_SCALE",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "D_TRACKCOND",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "L_TRACKCOND",
+                "repetitions": "",
+                "comment": "The distance for which integrity check alarms of balise transmission shall be ignored"
+            },
+            {
+                "id": "N_ITER",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "D_TRACKCOND",
+                "repetitions": "k",
+                "comment": ""
+            },
+            {
+                "id": "L_TRACKCOND",
+                "repetitions": "k",
+                "comment": "The distance for which integrity check alarms of balise transmission shall be ignored"
+            }
+        ]
+    },
+    {
+        "srs": "7.4.2.20",
+        "type": "track to train",
+        "number": 68,
+        "name": "Track Condition",
+        "remark": null,
+        "edited": null,
+        "description": "The packet gives details concerning the track ahead to support the driver when e.g. lower pantograph",
+        "media": "Any",
+        "content": [
+            {
+                "id": "NID_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_DIR",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "L_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_SCALE",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_TRACKINIT",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "D_TRACKINIT",
+                "repetitions": "",
+                "comment": "Only if Q_TRACKINIT = 1"
+            },
+            {
+                "id": "D_TRACKCOND",
+                "repetitions": "",
+                "comment": "Only if Q_TRACKINIT = 0"
+            },
+            {
+                "id": "L_TRACKCOND",
+                "repetitions": "",
+                "comment": "Only if Q_TRACKINIT = 0"
+            },
+            {
+                "id": "M_TRACKCOND",
+                "repetitions": "",
+                "comment": "Only if Q_TRACKINIT = 0"
+            },
+            {
+                "id": "N_ITER",
+                "repetitions": "",
+                "comment": "Only if Q_TRACKINIT = 0"
+            },
+            {
+                "id": "D_TRACKCOND",
+                "repetitions": "k",
+                "comment": ""
+            },
+            {
+                "id": "L_TRACKCOND",
+                "repetitions": "k",
+                "comment": ""
+            },
+            {
+                "id": "M_TRACKCOND",
+                "repetitions": "k",
+                "comment": ""
+            }
+        ]
+    },
+    {
+        "srs": "7.4.2.21",
+        "type": "track to train",
+        "number": 70,
+        "name": "Route Suitability Data",
+        "remark": null,
+        "edited": null,
+        "description": "The packet gives the characteristics needed to enter a route.",
+        "media": "Any",
+        "content": [
+            {
+                "id": "NID_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_DIR",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "L_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_SCALE",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_TRACKINIT",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "D_TRACKINIT",
+                "repetitions": "",
+                "comment": "Only if Q_TRACKINIT = 1"
+            },
+            {
+                "id": "D_SUITABILITY",
+                "repetitions": "",
+                "comment": "Only If Q_TRACKINIT = 0, D_SUITABILITY and the following variables follows"
+            },
+            {
+                "id": "Q_SUITABILITY",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "M_LOADINGGAUGE",
+                "repetitions": "",
+                "comment": "If Q_SUITABILITY= loading gauge"
+            },
+            {
+                "id": "M_AXLELOAD",
+                "repetitions": "",
+                "comment": "If Q_SUITABILITY= Max axle load."
+            },
+            {
+                "id": "M_TRACTION",
+                "repetitions": "",
+                "comment": "If Q_SUITABILITY = traction power"
+            },
+            {
+                "id": "N_ITER",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "D_SUITABILITY",
+                "repetitions": "k",
+                "comment": ""
+            },
+            {
+                "id": "Q_SUITABILITY",
+                "repetitions": "k",
+                "comment": ""
+            },
+            {
+                "id": "M_LOADINGGAUGE",
+                "repetitions": "k",
+                "comment": "If Q_SUITABILITY= loading gauge"
+            },
+            {
+                "id": "M_AXLELOAD",
+                "repetitions": "k",
+                "comment": "If Q_SUITABILITY= Max axle load."
+            },
+            {
+                "id": "M_TRACTION",
+                "repetitions": "k",
+                "comment": "If Q_SUITABILITY = traction power"
+            }
+        ]
+    },
+    {
+        "srs": "7.4.2.22",
+        "type": "track to train",
+        "number": 71,
+        "name": "Adhesion factor",
+        "remark": null,
+        "edited": null,
+        "description": "This packet is used when the trackside requests a change of the adhesion factor to be used in the brake model.",
+        "media": "Any",
+        "content": [
+            {
+                "id": "NID_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_DIR",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "L_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_SCALE",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "D_ADHESION",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "L_ADHESION",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "M_ADHESION",
+                "repetitions": "",
+                "comment": ""
+            }
+        ]
+    },
+    {
+        "srs": "7.4.2.23",
+        "type": "track to train",
+        "number": 72,
+        "name": "Packet for sending plain text messages",
+        "remark": null,
+        "edited": null,
+        "description": "",
+        "media": "Any",
+        "content": [
+            {
+                "id": "NID_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_DIR",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "L_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_SCALE",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_TEXTCLASS",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_TEXTDISPLAY",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "D_TEXTDISPLAY",
+                "repetitions": "",
+                "comment": "Start condition"
+            },
+            {
+                "id": "M_MODETEXTDISPLAY",
+                "repetitions": "",
+                "comment": "Start condition"
+            },
+            {
+                "id": "M_LEVELTEXTDISPLAY",
+                "repetitions": "",
+                "comment": "Start condition"
+            },
+            {
+                "id": "NID_STM",
+                "repetitions": "",
+                "comment": "If M_LEVELTR = 1 (STM)"
+            },
+            {
+                "id": "L_TEXTDISPLAY",
+                "repetitions": "",
+                "comment": "End condition"
+            },
+            {
+                "id": "T_TEXTDISPLAY",
+                "repetitions": "",
+                "comment": "End condition"
+            },
+            {
+                "id": "M_MODETEXTDISPLAY",
+                "repetitions": "",
+                "comment": "End condition"
+            },
+            {
+                "id": "M_LEVELTEXTDISPLAY",
+                "repetitions": "",
+                "comment": "End condition"
+            },
+            {
+                "id": "NID_STM",
+                "repetitions": "",
+                "comment": "If M_LEVELTR = 1 (STM)"
+            },
+            {
+                "id": "Q_TEXTCONFIRM",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "L_TEXT",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "X_TEXT",
+                "repetitions": "",
+                "comment": ""
+            }
+        ]
+    },
+    {
+        "srs": "7.4.2.24",
+        "type": "track to train",
+        "number": 76,
+        "name": "Packet for sending fixed text messages",
+        "remark": null,
+        "edited": null,
+        "description": "",
+        "media": "Any",
+        "content": [
+            {
+                "id": "NID_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_DIR",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "L_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_SCALE",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_TEXTCLASS",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_TEXTDISPLAY",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "D_TEXTDISPLAY",
+                "repetitions": "",
+                "comment": "Start condition"
+            },
+            {
+                "id": "M_MODETEXTDISPLAY",
+                "repetitions": "",
+                "comment": "Start condition"
+            },
+            {
+                "id": "M_LEVELTEXTDISPLAY",
+                "repetitions": "",
+                "comment": "Start condition"
+            },
+            {
+                "id": "NID_STM",
+                "repetitions": "",
+                "comment": "If M_LEVELTEXTDISPLAY = 1 (STM)"
+            },
+            {
+                "id": "L_TEXTDISPLAY",
+                "repetitions": "",
+                "comment": "End condition"
+            },
+            {
+                "id": "T_TEXTDISPLAY",
+                "repetitions": "",
+                "comment": "End condition"
+            },
+            {
+                "id": "M_MODETEXTDISPLAY",
+                "repetitions": "",
+                "comment": "End condition"
+            },
+            {
+                "id": "M_LEVELTEXTDISPLAY",
+                "repetitions": "",
+                "comment": "End condition"
+            },
+            {
+                "id": "NID_STM",
+                "repetitions": "",
+                "comment": "If M_LEVELTEXTDISPLAY = 1 (STM)"
+            },
+            {
+                "id": "Q_TEXTCONFIRM",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_TEXT",
+                "repetitions": "",
+                "comment": ""
+            }
+        ]
+    },
+    {
+        "srs": "7.4.2.25",
+        "type": "track to train",
+        "number": 79,
+        "name": "Geographical Position Information",
+        "remark": null,
+        "edited": null,
+        "description": "This packet gives geographical location information for one or multiple references to the train.",
+        "media": "Any",
+        "content": [
+            {
+                "id": "NID_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_DIR",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "L_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_SCALE",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_NEWCOUNTRY",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "NID_C",
+                "repetitions": "",
+                "comment": "if Q_NEWCOUNTRY = 1"
+            },
+            {
+                "id": "NID_BG",
+                "repetitions": "",
+                "comment": "Geographical Position Reference Balise Group"
+            },
+            {
+                "id": "D_POSOFF",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_MPOSITION",
+                "repetitions": "",
+                "comment": "Geographical Position counting direction"
+            },
+            {
+                "id": "M_POSITION",
+                "repetitions": "",
+                "comment": "Track kilometre reference value"
+            },
+            {
+                "id": "N_ITER",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_NEWCOUNTRY",
+                "repetitions": "k",
+                "comment": ""
+            },
+            {
+                "id": "NID_C",
+                "repetitions": "k",
+                "comment": "if Q_NEWCOUNTRY = 1"
+            },
+            {
+                "id": "NID_BG",
+                "repetitions": "k",
+                "comment": "Geographical Position Reference Balise Group"
+            },
+            {
+                "id": "D_POSOFF",
+                "repetitions": "k",
+                "comment": ""
+            },
+            {
+                "id": "Q_MPOSITION",
+                "repetitions": "k",
+                "comment": "Geographical Position counting direction"
+            },
+            {
+                "id": "M_POSITION",
+                "repetitions": "k",
+                "comment": "Track kilometre reference value"
+            }
+        ]
+    },
+    {
+        "srs": "7.4.2.26",
+        "type": "track to train",
+        "number": 80,
+        "name": "Mode profile",
+        "remark": null,
+        "edited": null,
+        "description": "Mode profile associated to an MA",
+        "media": "Any",
+        "content": [
+            {
+                "id": "NID_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_DIR",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "L_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_SCALE",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "D_MAMODE",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "M_MAMODE",
+                "repetitions": "",
+                "comment": "OS, SH"
+            },
+            {
+                "id": "V_MAMODE",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "L_MAMODE",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "L_ACKMAMODE",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "N_ITER",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "D_MAMODE",
+                "repetitions": "k",
+                "comment": ""
+            },
+            {
+                "id": "M_MAMODE",
+                "repetitions": "k",
+                "comment": "OS, SH"
+            },
+            {
+                "id": "V_MAMODE",
+                "repetitions": "k",
+                "comment": ""
+            },
+            {
+                "id": "L_MAMODE",
+                "repetitions": "k",
+                "comment": ""
+            },
+            {
+                "id": "L_ACKMAMODE",
+                "repetitions": "k",
+                "comment": ""
+            }
+        ]
+    },
+    {
+        "srs": "7.4.2.26.1",
+        "type": "track to train",
+        "number": 90,
+        "name": "Track Ahead Free up to level 2",
+        "remark": null,
+        "edited": null,
+        "description": "Notification to on-board that track ahead is free from the balise group transmitting this information up to the level 2/3 transition location",
+        "media": "Balise",
+        "content": [
+            {
+                "id": "NID_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_DIR",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "L_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_NEWCOUNTRY",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "NID_C",
+                "repetitions": "",
+                "comment": "If Q_NEWCOUNTRY = 1"
+            },
+            {
+                "id": "NID_BG",
+                "repetitions": "",
+                "comment": "Level 2/3 transition location balise group"
+            }
+        ]
+    },
+    {
+        "srs": "7.4.2.27",
+        "type": "track to train",
+        "number": 131,
+        "name": "RBC transition order",
+        "remark": null,
+        "edited": null,
+        "description": "Packet to order an RBC transition",
+        "media": "Any",
+        "content": [
+            {
+                "id": "NID_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_DIR",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "L_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_SCALE",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "D_RBCTR",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "NID_C",
+                "repetitions": "",
+                "comment": "\u201cAccepting\u201d RBC identity"
+            },
+            {
+                "id": "NID_RBC",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "NID_RADIO",
+                "repetitions": "",
+                "comment": "\u201cAccepting\u201d RBC radio subscriber number"
+            },
+            {
+                "id": "Q_SLEEPSESSION",
+                "repetitions": "",
+                "comment": ""
+            }
+        ]
+    },
+    {
+        "srs": "7.4.2.28",
+        "type": "track to train",
+        "number": 132,
+        "name": "Danger for Shunting information",
+        "remark": null,
+        "edited": null,
+        "description": "Transmission of the aspect of a shunting signal",
+        "media": "Balise",
+        "content": [
+            {
+                "id": "NID_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_DIR",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "L_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_ASPECT",
+                "repetitions": "",
+                "comment": ""
+            }
+        ]
+    },
+    {
+        "srs": "7.4.2.29",
+        "type": "track to train",
+        "number": 133,
+        "name": "Radio in",
+        "remark": null,
+        "edited": null,
+        "description": "",
+        "media": "Balise",
+        "content": [
+            {
+                "id": "NID_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_DIR",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "L_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_SCALE",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_RIU",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "NID_C",
+                "repetitions": "",
+                "comment": "RIU ETCS identity"
+            },
+            {
+                "id": "NID_RIU",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "NID_RADIO",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "D_INFILL",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "NID_C",
+                "repetitions": "",
+                "comment": "Refers to the next main signal balise group"
+            },
+            {
+                "id": "NID_BG",
+                "repetitions": "",
+                "comment": ""
+            }
+        ]
+    },
+    {
+        "srs": "7.4.2.30",
+        "type": "track to train",
+        "number": 134,
+        "name": "EOLM Packet",
+        "remark": null,
+        "edited": null,
+        "description": "This packet announces a loop.",
+        "media": "Balise",
+        "content": [
+            {
+                "id": "NID_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_DIR",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "L_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_SCALE",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "NID_LOOP",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "D_LOOP",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "L_LOOP",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_LOOPDIR",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_SSCODE",
+                "repetitions": "",
+                "comment": ""
+            }
+        ]
+    },
+    {
+        "srs": "7.4.2.32",
+        "type": "track to train",
+        "number": 136,
+        "name": "Infill location reference",
+        "remark": null,
+        "edited": null,
+        "description": "Defines location reference for all data contained in the same radio message or balise/loop telegram respectively, following this packet.",
+        "media": "Balise, loop or infill radio",
+        "content": [
+            {
+                "id": "NID_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_DIR",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "L_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_NEWCOUNTRY",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "NID_C",
+                "repetitions": "",
+                "comment": "If Q_NEWCOUNTRY = 1"
+            },
+            {
+                "id": "NID_BG",
+                "repetitions": "",
+                "comment": ""
+            }
+        ]
+    },
+    {
+        "srs": "7.4.2.33",
+        "type": "track to train",
+        "number": 137,
+        "name": "Stop if in Staff Responsible",
+        "remark": null,
+        "edited": null,
+        "description": "Information to stop a train in staff responsible.",
+        "media": "Balise",
+        "content": [
+            {
+                "id": "NID_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_DIR",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "L_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_SRSTOP",
+                "repetitions": "",
+                "comment": ""
+            }
+        ]
+    },
+    {
+        "srs": "7.4.2.34",
+        "type": "track to train",
+        "number": 138,
+        "name": "Reversing area information",
+        "remark": null,
+        "edited": null,
+        "description": "Used to send start and length of reversing area to the on-board",
+        "media": "Any",
+        "content": [
+            {
+                "id": "NID_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_DIR",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "L_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_SCALE",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "D_STARTREVERSE",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "L_REVERSEAREA",
+                "repetitions": "",
+                "comment": ""
+            }
+        ]
+    },
+    {
+        "srs": "7.4.2.35",
+        "type": "track to train",
+        "number": 139,
+        "name": "Reversing supervision information",
+        "remark": null,
+        "edited": null,
+        "description": "Used to send supervision parameters (distance to run, speed) of reversing area to the on-board",
+        "media": "Any",
+        "content": [
+            {
+                "id": "NID_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_DIR",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "L_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_SCALE",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "D_REVERSE",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "V_REVERSE",
+                "repetitions": "",
+                "comment": ""
+            }
+        ]
+    },
+    {
+        "srs": "7.4.2.36",
+        "type": "track to train",
+        "number": 140,
+        "name": "Train running number from RBC",
+        "remark": null,
+        "edited": null,
+        "description": "Train running number from RBC",
+        "media": "Radio",
+        "content": [
+            {
+                "id": "NID_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_DIR",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "L_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "NID_OPERATIONAL",
+                "repetitions": "",
+                "comment": ""
+            }
+        ]
+    },
+    {
+        "srs": "7.4.2.37",
+        "type": "track to train",
+        "number": 141,
+        "name": "Default Gradient for Temporary Speed Restriction",
+        "remark": null,
+        "edited": null,
+        "description": "It defines a default gradient to be used for TSR supervision when no gradient profile (packet 21) is available",
+        "media": "Balise",
+        "content": [
+            {
+                "id": "NID_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_DIR",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "L_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_GDIR",
+                "repetitions": "",
+                "comment": "0 = downhill 1= uphill"
+            },
+            {
+                "id": "G_TSR",
+                "repetitions": "",
+                "comment": ""
+            }
+        ]
+    },
+    {
+        "srs": "7.4.2.38",
+        "type": "track to train",
+        "number": 254,
+        "name": "Default balise",
+        "remark": null,
+        "edited": null,
+        "description": "Indication to on-board that balise telegram, loop message or RIU information contains default information due to a fault of the trackside equipment.",
+        "media": "Any",
+        "content": [
+            {
+                "id": "NID_PACKET",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "Q_DIR",
+                "repetitions": "",
+                "comment": ""
+            },
+            {
+                "id": "L_PACKET",
+                "repetitions": "",
+                "comment": ""
+            }
+        ]
+    },
+    {
+        "srs": "7.4.4.1",
+        "type": "track to train",
+        "number": 255,
+        "name": "End of Information",
+        "remark": null,
+        "edited": null,
+        "description": "This packet consists only of NID_PACKET containing 8 bit 1s\nIt acts as a finish flag ; the receiver will stop reading the remaining part of the message/telegram when receiving eight bits set to one in the NID_PACKET field.",
+        "media": "Any",
+        "content": [
+            {
+                "id": "NID_PACKET",
+                "repetitions": "",
+                "comment": "= 255 (1111 1111)"
+            }
+        ]
+    }
+]

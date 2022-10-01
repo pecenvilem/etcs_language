@@ -1,0 +1,298 @@
+[
+    {
+        "srs": "7.5.1.39",
+        "type": "L",
+        "id": "L_ACKLEVELTR",
+        "remark": null,
+        "edited": null,
+        "name": "Length of the acknowledgement area in rear of the required level",
+        "description": "",
+        "length": 15,
+        "min": "0 cm",
+        "max": "327.670 km",
+        "resolution": "10 cm, 1m or 10 m depends on Q_SCALE",
+        "spec": {}
+    },
+    {
+        "srs": "7.5.1.40",
+        "type": "L",
+        "id": "L_ACKMAMODE",
+        "remark": null,
+        "edited": null,
+        "name": "Length of the acknowledgement area in rear of the start of the required mode",
+        "description": "",
+        "length": 15,
+        "min": "0 cm",
+        "max": "327.670 km",
+        "resolution": "10 cm, 1m or 10 m depends on Q_SCALE",
+        "spec": {}
+    },
+    {
+        "srs": "7.5.1.41",
+        "type": "L",
+        "id": "L_ADHESION",
+        "remark": null,
+        "edited": null,
+        "name": "Length of reduced adhesion",
+        "description": "Length for which the reduced adhesion factor apply.",
+        "length": 15,
+        "min": "0 cm",
+        "max": "327.670 km",
+        "resolution": "10 cm, 1 m or 10 m depending on Q_SCALE",
+        "spec": {}
+    },
+    {
+        "srs": "7.5.1.42",
+        "type": "L",
+        "id": "L_AXLELOAD",
+        "remark": null,
+        "edited": null,
+        "name": "Length of speed restriction due to Axle load",
+        "description": "",
+        "length": 15,
+        "min": "0 m",
+        "max": "327.670 km",
+        "resolution": "10 cm, 1m or 10 m depending on Q_SCALE",
+        "spec": {}
+    },
+    {
+        "srs": "7.5.1.43",
+        "type": "L",
+        "id": "L_DOUBTOVER",
+        "remark": null,
+        "edited": null,
+        "name": "Over-reading error",
+        "description": "L_DOUBTOVER is the difference between the lower bound of the confidence interval and the estimated value of D_LRBG",
+        "length": 15,
+        "min": "0 cm",
+        "max": "327.660 km",
+        "resolution": "10 cm, 1m or 10 m depends on Q_SCALE",
+        "spec": {
+            "32767": "Unknown"
+        }
+    },
+    {
+        "srs": "7.5.1.44",
+        "type": "L",
+        "id": "L_DOUBTUNDER",
+        "remark": null,
+        "edited": null,
+        "name": "Under-reading error",
+        "description": "L_DOUBTUNDER is the difference between the upper bound of the confidence interval and the estimated value of D_LRBG",
+        "length": 15,
+        "min": "0 cm",
+        "max": "327.660 km",
+        "resolution": "10 cm, 1m or 10 m depends on Q_SCALE",
+        "spec": {
+            "32767": "Unknown"
+        }
+    },
+    {
+        "srs": "7.5.1.45",
+        "type": "L",
+        "id": "L_ENDSECTION",
+        "remark": null,
+        "edited": null,
+        "name": "Length of the End section in the MA",
+        "description": "",
+        "length": 15,
+        "min": "0 cm",
+        "max": "327.670 km",
+        "resolution": "10 cm, 1m or 10 m depends on Q_SCALE.",
+        "spec": {}
+    },
+    {
+        "srs": "7.5.1.46",
+        "type": "L",
+        "id": "L_LOOP",
+        "remark": null,
+        "edited": null,
+        "name": "Length of loop",
+        "description": "The EOLM specifies the length of the loop starting from the distance indicated by D_LOOP",
+        "length": 15,
+        "min": "0 cm",
+        "max": "327.660 km",
+        "resolution": "10 cm, 1m or 10 m depends on Q_SCALE",
+        "spec": {
+            "1111 \u2026 1111": "Length not known"
+        }
+    },
+    {
+        "srs": "7.5.1.47",
+        "type": "L",
+        "id": "L_MAMODE",
+        "remark": null,
+        "edited": null,
+        "name": "Length of the area of the required mode",
+        "description": "",
+        "length": 15,
+        "min": "0 m",
+        "max": "327.660 km",
+        "resolution": "10 cm, 1m or 10 m depending on Q_SCALE",
+        "spec": {
+            "1111\u2026111": "Infinite length"
+        }
+    },
+    {
+        "srs": "7.5.1.48",
+        "type": "L",
+        "id": "L_MESSAGE",
+        "remark": null,
+        "edited": null,
+        "name": "Message length",
+        "description": "L_MESSAGE indicates the length of the message in bytes, including all packets and all variables defined in the message header (NID_MESSAGE and L_MESSAGE also).",
+        "length": 10,
+        "min": "0",
+        "max": "1023",
+        "resolution": "1 Byte",
+        "spec": {}
+    },
+    {
+        "srs": "7.5.1.49",
+        "type": "L",
+        "id": "L_PACKET",
+        "remark": null,
+        "edited": null,
+        "name": "Packet length",
+        "description": "L_PACKET indicates the length of the packet in bits, including all bits of the packet header",
+        "length": 13,
+        "min": "0",
+        "max": "8191",
+        "resolution": "1 bit",
+        "spec": {
+            "": ""
+        }
+    },
+    {
+        "srs": "7.5.1.50",
+        "type": "L",
+        "id": "L_REVERSEAREA",
+        "remark": null,
+        "edited": null,
+        "name": "Length of the reversing permitted area",
+        "description": "",
+        "length": 15,
+        "min": "0 cm",
+        "max": "327.670 km",
+        "resolution": "10 cm, 1m or 10 m depends on Q_SCALE",
+        "spec": {}
+    },
+    {
+        "srs": "7.5.1.51",
+        "type": "L",
+        "id": "L_SECTION",
+        "remark": null,
+        "edited": null,
+        "name": "Length of section in the MA",
+        "description": "",
+        "length": 15,
+        "min": "0 cm",
+        "max": "327.670 km",
+        "resolution": "10 cm, 1m or 10 m depends on Q_SCALE",
+        "spec": {}
+    },
+    {
+        "srs": "7.5.1.52",
+        "type": "L",
+        "id": "L_TAFDISPLAY",
+        "remark": null,
+        "edited": null,
+        "name": "Length on which a track ahead free request shall be displayed",
+        "description": "",
+        "length": 15,
+        "min": "0 cm",
+        "max": "327.660 km",
+        "resolution": "10 cm, 1m or 10 m depends on Q_SCALE",
+        "spec": {}
+    },
+    {
+        "srs": "7.5.1.53",
+        "type": "L",
+        "id": "L_TEXT",
+        "remark": null,
+        "edited": null,
+        "name": "Length of text string",
+        "description": "L_TEXT defines the length of a text string (L_TEXT * X_TEXT)",
+        "length": 8,
+        "min": "0",
+        "max": "255",
+        "resolution": "1 Text String Element",
+        "spec": {}
+    },
+    {
+        "srs": "7.5.1.54",
+        "type": "L",
+        "id": "L_TEXTDISPLAY",
+        "remark": null,
+        "edited": null,
+        "name": "Length on which a text shall be displayed",
+        "description": "",
+        "length": 15,
+        "min": "0 cm",
+        "max": "327.660 km",
+        "resolution": "10 cm, 1m or 10 m depends on Q_SCALE",
+        "spec": {
+            "32767": "The display of the text shall not be distance limited."
+        }
+    },
+    {
+        "srs": "7.5.1.55",
+        "type": "L",
+        "id": "L_TRACKCOND",
+        "remark": null,
+        "edited": null,
+        "name": "Length for which the defined track condition is valid",
+        "description": "",
+        "length": 15,
+        "min": "0 m",
+        "max": "327.670 km",
+        "resolution": "10 cm, 1m or 10 m depending on Q_SCALE",
+        "spec": {}
+    },
+    {
+        "srs": "7.5.1.56",
+        "type": "L",
+        "id": "L_TRAIN",
+        "remark": null,
+        "edited": null,
+        "name": "Train length",
+        "description": "This is the absolute real length of the train.",
+        "length": 12,
+        "min": "0 m",
+        "max": "4095 m",
+        "resolution": "1 m",
+        "spec": {
+            "": ""
+        }
+    },
+    {
+        "srs": "7.5.1.57",
+        "type": "L",
+        "id": "L_TRAININT",
+        "remark": null,
+        "edited": null,
+        "name": "Safe Train length",
+        "description": "",
+        "length": 15,
+        "min": "0 m",
+        "max": "32767 m",
+        "resolution": "1 m",
+        "spec": {
+            "": ""
+        }
+    },
+    {
+        "srs": "7.5.1.58",
+        "type": "L",
+        "id": "L_TSR",
+        "remark": null,
+        "edited": null,
+        "name": "Length of the temporary speed restriction",
+        "description": "",
+        "length": 15,
+        "min": "0 cm",
+        "max": "327.670 km",
+        "resolution": "10 cm, 1m or 10 m depends on Q_SCALE",
+        "spec": {}
+    }
+]

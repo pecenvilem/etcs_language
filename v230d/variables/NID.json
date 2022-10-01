@@ -1,0 +1,291 @@
+[
+    {
+        "srs": "7.5.1.85",
+        "type": "NID",
+        "id": "NID_BG",
+        "remark": null,
+        "edited": null,
+        "name": "Identity number of the balise group",
+        "description": "Identity number of a balise group or loop within the country or region defined by NID_C.",
+        "length": 14,
+        "min": "0",
+        "max": "16382",
+        "resolution": "Numbers",
+        "spec": {
+            "16383": "only accept balise groups containing repositioning information for the running direction (only to be used in linking)"
+        }
+    },
+    {
+        "srs": "7.5.1.86",
+        "type": "NID",
+        "id": "NID_C",
+        "remark": "(Values to be assigned according to 7.3.1.3)",
+        "edited": null,
+        "name": "Identity number of the country or region",
+        "description": "Code used to identify the country or region in which the balise group is situated. These need not necessarily follow administrative or political boundaries.",
+        "length": 10,
+        "min": "0",
+        "max": "1023",
+        "resolution": "Numbers",
+        "spec": {
+            "": ""
+        }
+    },
+    {
+        "srs": "7.5.1.87",
+        "type": "NID",
+        "id": "NID_EM",
+        "remark": null,
+        "edited": null,
+        "name": "Emergency message identity",
+        "description": "Identifies the number of the emergency message",
+        "length": 4,
+        "min": "",
+        "max": "",
+        "resolution": "",
+        "spec": {
+            "": ""
+        }
+    },
+    {
+        "srs": "7.5.1.88",
+        "type": "NID",
+        "id": "NID_ENGINE",
+        "remark": "(Values to be assigned according to 7.3.1.3)",
+        "edited": null,
+        "name": "Onboard ETCS identity",
+        "description": "The ETCS identity number is uniquely defined for ERTMS/ETCS purposes",
+        "length": 24,
+        "min": "",
+        "max": "",
+        "resolution": "",
+        "spec": {}
+    },
+    {
+        "srs": "7.5.1.89",
+        "type": "NID",
+        "id": "NID_LOOP",
+        "remark": null,
+        "edited": null,
+        "name": "Identity number of the loop",
+        "description": "Identity number of a loop within the country or region defined by NID_C given in the EOLM balise header.",
+        "length": 14,
+        "min": "0",
+        "max": "16383",
+        "resolution": "Numbers",
+        "spec": {}
+    },
+    {
+        "srs": "7.5.1.90",
+        "type": "NID",
+        "id": "NID_LRBG",
+        "remark": null,
+        "edited": null,
+        "name": "Identity of  last relevant balise group",
+        "description": "Country/region identity (NID_C) + balise identity number of last relevant balise group (NID_BG).",
+        "length": 24,
+        "min": "",
+        "max": "",
+        "resolution": "",
+        "spec": {
+            "16777215": "Unknown",
+            "": ""
+        }
+    },
+    {
+        "srs": "7.5.1.90.1",
+        "type": "NID",
+        "id": "NID_LTRBG",
+        "remark": null,
+        "edited": null,
+        "name": "Identity of the level 2/3 transition balise group",
+        "description": "Identity of the balise group at the level 2/3 transition location towards which the train is running.\nCountry/region identity (NID_C) + balise identity number of the level 2/3 transition location balise group (NID_BG).",
+        "length": 24,
+        "min": "",
+        "max": "",
+        "resolution": "",
+        "spec": {}
+    },
+    {
+        "srs": "7.5.1.91",
+        "type": "NID",
+        "id": "NID_MESSAGE",
+        "remark": null,
+        "edited": null,
+        "name": "Message identifier",
+        "description": "Message identifier",
+        "length": 8,
+        "min": "0",
+        "max": "255",
+        "resolution": "Numbers",
+        "spec": {}
+    },
+    {
+        "srs": "7.5.1.91.1",
+        "type": "NID",
+        "id": "NID_MN",
+        "remark": null,
+        "edited": null,
+        "name": "Identity of Radio Network",
+        "description": "The NID_MN identifies the GSM-R network the calling mobile station has to register with. The NID_MN consists of up to 6 digits which are entered left adjusted into the data field, the leftmost digit is the digit to be dialled first. In case the NID_MN is shorter than 6 digits, the remaining space is to be filled with special character \u201cF\u201d. For further information about NID_MN refer to Subset-54.",
+        "length": 24,
+        "min": "0",
+        "max": "999999",
+        "resolution": "Binary Coded Decimal",
+        "spec": {
+            "For each digit ;": "For each digit ;",
+            "Values A \u2013 E": "Not Used",
+            "F": "Use value F for digit to indicate no digit (if number shorter than 6 digits)"
+        }
+    },
+    {
+        "srs": "7.5.1.92",
+        "type": "NID",
+        "id": "NID_OPERATIONAL",
+        "remark": "(Values to be assigned according to 7.3.1.3)",
+        "edited": null,
+        "name": "Train Running Number",
+        "description": "This is the operational train running number.",
+        "length": 32,
+        "min": "0",
+        "max": "9999 9999",
+        "resolution": "Binary Coded Decimal",
+        "spec": {
+            "For each digit ;": "",
+            "Values A \u2013 E": "Not Used",
+            "F": "Use value F for digit to indicate no digit (if number shorter than 8 digits)",
+            "Exception: FFFF FFFF": "Unknown"
+        }
+    },
+    {
+        "srs": "7.5.1.93",
+        "type": "NID",
+        "id": "NID_PACKET",
+        "remark": null,
+        "edited": null,
+        "name": "Packet identifier",
+        "description": "This is used in the header for each packet, allowing the receiving equipment to identify the data which follows.",
+        "length": 8,
+        "min": "0",
+        "max": "255",
+        "resolution": "Numbers",
+        "spec": {}
+    },
+    {
+        "srs": "7.5.1.94",
+        "type": "NID",
+        "id": "NID_PRVBG",
+        "remark": null,
+        "edited": null,
+        "name": "Identity of  the previous balise group",
+        "description": "Previous balise group detected when running towards the balise group identified as LRBG with no change of direction in-between.\nCountry/region identity (NID_C) + balise identity number of the previous balise group (NID_BG).",
+        "length": 24,
+        "min": "",
+        "max": "",
+        "resolution": "",
+        "spec": {
+            "16777215": "unknown"
+        }
+    },
+    {
+        "srs": "7.5.1.95",
+        "type": "NID",
+        "id": "NID_RADIO",
+        "remark": "(Values to be assigned according to 7.3.1.3)",
+        "edited": null,
+        "name": "Radio subscriber number.",
+        "description": "Quoted as a 16 digit decimal number. \nThe number is to be entered \"left adjusted\" starting with the first digit to be dialled. Padding by the special value F shall be added after the least significant digit of the number. \n For further information about NID_RADIO  refer to SUBSET-054.",
+        "length": 64,
+        "min": "0",
+        "max": "9999 9999 9999 9999",
+        "resolution": "Binary Coded Decimal",
+        "spec": {
+            "For each digit ;": "For each digit ;",
+            "Values A \u2013 E": "Not Used",
+            "F": "Use value F for digit to indicate no digit (if number shorter than 16 digits)",
+            "FFFF FFFF FFFF FFFF": "Use the short number stored onboard"
+        }
+    },
+    {
+        "srs": "7.5.1.96",
+        "type": "NID",
+        "id": "NID_RBC",
+        "remark": "(Values to be assigned according to 7.3.1.3)",
+        "edited": null,
+        "name": "RBC ETCS identity number",
+        "description": "This variable provides the identity of the RBC belonging to NID_C.\nThe RBC ETCS identity is given by NID_C + NID_RBC.",
+        "length": 14,
+        "min": "0",
+        "max": "16 382",
+        "resolution": "Number",
+        "spec": {
+            "16 383": "not known"
+        }
+    },
+    {
+        "srs": "7.5.1.97",
+        "type": "NID",
+        "id": "NID_RIU",
+        "remark": "(Values to be assigned according to 7.3.1.3)",
+        "edited": null,
+        "name": "Identity of  radio in-fill unit",
+        "description": "This variable provides the identity of the RIU belonging to NID_C.\nThe RIU ETCS identity is given by NID_C + NID_RIU.",
+        "length": 14,
+        "min": "0",
+        "max": "16 382",
+        "resolution": "Number",
+        "spec": {
+            "16 383": "not known"
+        }
+    },
+    {
+        "srs": "7.5.1.98",
+        "type": "NID",
+        "id": "NID_STM",
+        "remark": "(Values to be assigned according to 7.3.1.3)",
+        "edited": null,
+        "name": "STM identity",
+        "description": "One value of this variable represents the identity of an STM reflecting each composition of national infrastructure.",
+        "length": 8,
+        "min": "0",
+        "max": "255",
+        "resolution": "",
+        "spec": {
+            "": ""
+        }
+    },
+    {
+        "srs": "7.5.1.99",
+        "type": "NID",
+        "id": "NID_TSR",
+        "remark": null,
+        "edited": null,
+        "name": "Identity number of Temporary Speed Restriction.",
+        "description": "",
+        "length": 8,
+        "min": "0",
+        "max": "255",
+        "resolution": "Number",
+        "spec": {
+            "0-126": "Reserved for non RBC transmission (balise, loop or radio infill)",
+            "127-254": "Reserved for RBC transmission",
+            "1111 1111": "Non-revocable speed restriction (applicable for all transmission media)"
+        }
+    },
+    {
+        "srs": "7.5.1.100",
+        "type": "NID",
+        "id": "NID_XUSER",
+        "remark": "(Values to be assigned according to 7.3.1.3)",
+        "edited": null,
+        "name": "Identity of user system",
+        "description": "Identity of user system for which remainder of packet is intended.",
+        "length": 9,
+        "min": "0",
+        "max": "511",
+        "resolution": "Numbers",
+        "spec": {
+            "": ""
+        }
+    }
+]

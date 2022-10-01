@@ -1,0 +1,328 @@
+[
+  {
+    "srs": "7.5.1.155",
+    "type": "V",
+    "id": "V_AXLELOAD",
+    "remark": null,
+    "edited": null,
+    "name": "Speed restriction related to axleload",
+    "description": "",
+    "length": 7,
+    "min": "0 km/h",
+    "max": "600 km/h",
+    "resolution": "5 km/h",
+    "spec": {
+      "121 \u2013127": "Spare"
+    },
+    "spec_avare": [
+      {
+        "from": 121,
+        "to": 127,
+        "meaning": "Spare"
+      }
+    ]
+  },
+  {
+    "srs": "7.5.1.156",
+    "type": "V",
+    "id": "V_DIFF",
+    "remark": null,
+    "edited": null,
+    "name": "Absolute Positive Speed associated to a train category.",
+    "description": "",
+    "length": 7,
+    "min": "0 km/h",
+    "max": "600 km/h",
+    "resolution": "5 km/h",
+    "spec": {
+      "121 \u2013 127": "Spare"
+    },
+    "spec_avare": [
+      {
+        "from": 121,
+        "to": 127,
+        "meaning": "Spare"
+      }
+    ]
+  },
+  {
+    "srs": "7.5.1.157",
+    "type": "V",
+    "id": "V_LOA",
+    "remark": null,
+    "edited": null,
+    "name": "Permitted speed at the limit of authority",
+    "description": "",
+    "length": 7,
+    "min": "0 km/h",
+    "max": "600 km/h",
+    "resolution": "5 km/h",
+    "spec": {
+      "121-127": "Spare"
+    }
+  },
+  {
+    "srs": "7.5.1.158",
+    "type": "V",
+    "id": "V_MAIN",
+    "remark": null,
+    "edited": null,
+    "name": "Signalling related speed restriction",
+    "description": "",
+    "length": 7,
+    "min": "0 km/h",
+    "max": "600 km/h",
+    "resolution": "5 km/h",
+    "spec": {
+      "121-127": "Spare",
+      "V_MAIN = 0 means \u201ctrip order\u201d": "V_MAIN = 0 means \u201ctrip order\u201d"
+    }
+  },
+  {
+    "srs": "7.5.1.159",
+    "type": "V",
+    "id": "V_MAMODE",
+    "remark": null,
+    "edited": null,
+    "name": "Required mode related speed",
+    "description": "",
+    "length": 7,
+    "min": "0",
+    "max": "600 km/h",
+    "resolution": "5 km/h",
+    "spec": {
+      "121 \u2013 126": "Spare",
+      "127": "Use the national speed value of the required mode"
+    }
+  },
+  {
+    "srs": "7.5.1.160",
+    "type": "V",
+    "id": "V_MAXTRAIN",
+    "remark": null,
+    "edited": null,
+    "name": "Maximum permitted train speed.",
+    "description": "Maximum permitted speed for the train, taking into account the maximum speed of every vehicle contained in the train set.",
+    "length": 7,
+    "min": "0",
+    "max": "600 km/h",
+    "resolution": "5 km/h",
+    "spec": {
+      "121 \u2013 127": "Spare"
+    }
+  },
+  {
+    "srs": "7.5.1.161",
+    "type": "V",
+    "id": "V_NVALLOWOVTRP",
+    "remark": null,
+    "edited": null,
+    "name": "Maximum speed limit allowing the driver to select the \u201coverride EOA\u201d function",
+    "description": "This variable is part of the National Values",
+    "length": 7,
+    "min": "0 km/h",
+    "max": "600km/h",
+    "resolution": "5 km/h",
+    "spec": {
+      "121 \u2013 127": "Spare"
+    }
+  },
+  {
+    "srs": "7.5.1.162",
+    "type": "V",
+    "id": "V_NVONSIGHT",
+    "remark": null,
+    "edited": null,
+    "name": "On Sight mode (permitted) speed limit",
+    "description": "This variable is part of the National Values",
+    "length": 7,
+    "min": "0 km/h",
+    "max": "600 km/h",
+    "resolution": "5 km/h",
+    "spec": {
+      "121-127": "Spare"
+    }
+  },
+  {
+    "srs": "7.5.1.163",
+    "type": "V",
+    "id": "V_NVSUPOVTRP",
+    "remark": null,
+    "edited": null,
+    "name": "Permitted speed limit to be supervised when the \u201coverride EOA\u201d function is active",
+    "description": "This variable is part of the National Values",
+    "length": 7,
+    "min": "0 km/h",
+    "max": "600km/h",
+    "resolution": "5 km/h",
+    "spec": {
+      "121 \u2013 127": "Spare"
+    }
+  },
+  {
+    "srs": "7.5.1.164",
+    "type": "V",
+    "id": "V_NVREL",
+    "remark": null,
+    "edited": null,
+    "name": "Release Speed (permitted) speed limit",
+    "description": "This variable is part of the National Values",
+    "length": 7,
+    "min": "0 km/h",
+    "max": "600 km/h",
+    "resolution": "5 km/h",
+    "spec": {
+      "121-127": "Spare"
+    }
+  },
+  {
+    "srs": "7.5.1.165",
+    "type": "V",
+    "id": "V_NVSHUNT",
+    "remark": null,
+    "edited": null,
+    "name": "Shunting mode (permitted) speed limit",
+    "description": "This variable is part of the National Values",
+    "length": 7,
+    "min": "0 km/h",
+    "max": "600 km/h",
+    "resolution": "5 km/h",
+    "spec": {
+      "121-127": "Spare"
+    }
+  },
+  {
+    "srs": "7.5.1.166",
+    "type": "V",
+    "id": "V_NVSTFF",
+    "remark": null,
+    "edited": null,
+    "name": "Staff Responsible mode (permitted) speed limit",
+    "description": "This variable is part of the National Values",
+    "length": 7,
+    "min": "0 km/h",
+    "max": "600 km/h",
+    "resolution": "5 km/h",
+    "spec": {
+      "121-127": "Spare"
+    }
+  },
+  {
+    "srs": "7.5.1.167",
+    "type": "V",
+    "id": "V_NVUNFIT",
+    "remark": null,
+    "edited": null,
+    "name": "Unfitted mode (permitted) speed limit",
+    "description": "This variable is part of the National Values",
+    "length": 7,
+    "min": "0 km/h",
+    "max": "600 km/h",
+    "resolution": "5 km/h",
+    "spec": {
+      "121-127": "Spare"
+    }
+  },
+  {
+    "srs": "7.5.1.168",
+    "type": "V",
+    "id": "V_RELEASEDP",
+    "remark": null,
+    "edited": null,
+    "name": "Release speed associated with the danger point",
+    "description": "",
+    "length": 7,
+    "min": "0 km/h",
+    "max": "600 km/h",
+    "resolution": "5 km/h",
+    "spec": {
+      "121-125": "Spare",
+      "126": "Use onboard calculated release speed",
+      "127": "Use national value"
+    }
+  },
+  {
+    "srs": "7.5.1.169",
+    "type": "V",
+    "id": "V_RELEASEOL",
+    "remark": null,
+    "edited": null,
+    "name": "Release speed associated with the overlap",
+    "description": "",
+    "length": 7,
+    "min": "0 km/h",
+    "max": "600 km/h",
+    "resolution": "5 km/h",
+    "spec": {
+      "121-125": "Spare",
+      "126": "Use onboard calculated release speed",
+      "127": "Use national value"
+    }
+  },
+  {
+    "srs": "7.5.1.170",
+    "type": "V",
+    "id": "V_REVERSE",
+    "remark": null,
+    "edited": null,
+    "name": "Maximum speed in RV mode",
+    "description": "",
+    "length": 7,
+    "min": "0 km/h",
+    "max": "600 km/h",
+    "resolution": "5 km/h",
+    "spec": {
+      "121-127": "Spare"
+    }
+  },
+  {
+    "srs": "7.5.1.171",
+    "type": "V",
+    "id": "V_STATIC",
+    "remark": null,
+    "edited": null,
+    "name": "Static speed profile",
+    "description": "Static speed profile speed after discontinuity (k).",
+    "length": 7,
+    "min": "0",
+    "max": "600 km/h",
+    "resolution": "5 km/h",
+    "spec": {
+      "121-126": "Spare",
+      "127": "Non numerical value telling that the static speed profile description ends at D_STATIC(n)"
+    }
+  },
+  {
+    "srs": "7.5.1.172",
+    "type": "V",
+    "id": "V_TRAIN",
+    "remark": null,
+    "edited": null,
+    "name": "Actual Train speed",
+    "description": "",
+    "length": 7,
+    "min": "0",
+    "max": "600 km/h",
+    "resolution": "5 km/h",
+    "spec": {
+      "121-127": "Spare",
+      "": ""
+    }
+  },
+  {
+    "srs": "7.5.1.173",
+    "type": "V",
+    "id": "V_TSR",
+    "remark": null,
+    "edited": null,
+    "name": "Permitted speed for the temporary speed restriction",
+    "description": "",
+    "length": 7,
+    "min": "0 km/h",
+    "max": "600 km/h",
+    "resolution": "5 km/h",
+    "spec": {
+      "121 \u2013 127": "Spare"
+    }
+  }
+]
